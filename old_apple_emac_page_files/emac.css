@@ -1,0 +1,41 @@
+#header {width: 678px; border: 1px solid #a1a5a9;}
+#globalnav {background: #edeef0 url(/web/20050306124305im_/http://www.apple.com/emac/images/globalnavbgnd20050111.gif) top left no-repeat; padding: 0; border-bottom: 1px solid #a1a5a9; margin-bottom: 10px;}
+#globalnav a {text-decoration: none; border: 0; margin: 0; padding: 0;}
+#globalnavmacmini {background: url(http://web.archive.org/web/20050306124305im_/http://images.apple.com/emac/images/globalnavmacmini20050111.gif) 0 0 no-repeat;}
+.hi #globalnavmacmini {background: url(http://web.archive.org/web/20050306124305im_/http://images.apple.com/emac/images/globalnavmacmini20050111.gif) 0 -110px no-repeat;}
+a:hover #globalnavmacmini {background: url(http://web.archive.org/web/20050306124305im_/http://images.apple.com/emac/images/globalnavmacmini20050111.gif) 0 -55px no-repeat;}
+#globalnavemac {background: url(http://web.archive.org/web/20050306124305im_/http://images.apple.com/emac/images/globalnavemac20050111.gif) 0 0 no-repeat;}
+.hi #globalnavemac {background: url(http://web.archive.org/web/20050306124305im_/http://images.apple.com/emac/images/globalnavemac20050111.gif) 0 -110px no-repeat;}
+a:hover #globalnavemac {background: url(http://web.archive.org/web/20050306124305im_/http://images.apple.com/emac/images/globalnavemac20050111.gif) 0 -55px no-repeat;}
+#globalnavimac {background: url(http://web.archive.org/web/20050306124305im_/http://images.apple.com/emac/images/globalnavimac20050111.gif) 0 0 no-repeat;}
+.hi #globalnavimac {background: url(http://web.archive.org/web/20050306124305im_/http://images.apple.com/emac/images/globalnavimac20050111.gif) 0 -110px no-repeat;}
+a:hover #globalnavimac {background: url(http://web.archive.org/web/20050306124305im_/http://images.apple.com/emac/images/globalnavimac20050111.gif) 0 -55px no-repeat;}
+#localnav {table-layout: fixed; width: 678px; background-color: #a1a5a9; padding: 0; border-top: 1px solid #a1a5a9; margin: 0;}
+#localnav td {font-weight: bold; font-size: 13px; text-align: center; vertical-align: middle; white-space: nowrap;}
+#localnav a {text-decoration: none; color: #ffffff; display: block; padding: 3px;}
+#localnav a:hover {color: #ffffff; background-color: #c0c1c3;}
+#localnav a.hi {color: #76797c; background-color: #d9dbdd;}
+
+/*
+     FILE ARCHIVED ON 12:43:05 Mar 06, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:35:37 Aug 19, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  xauthn.identify: 292.416
+  RedisCDXSource: 100.454
+  esindex: 0.015
+  LoadShardBlock: 440.081 (3)
+  captures_list: 856.563
+  PetaboxLoader3.resolve: 1149.943
+  exclusion.robots: 292.825
+  CDXLines.iter: 19.159 (3)
+  exclusion.robots.policy: 292.813
+  load_resource: 1794.635
+  PetaboxLoader3.datanode: 985.867 (4)
+  xauthn.chkprivs: 0.052
+*/

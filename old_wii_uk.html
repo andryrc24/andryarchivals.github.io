@@ -1,0 +1,894 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0044)https://andrio.neocities.org/old_wii_uk.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./old_wii_uk_files/analytics.js(1).download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app23.us.archive.org';v.server_ms=778;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./old_wii_uk_files/playback.bundle.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./old_wii_uk_files/wombat.js.download" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://uk.wii.com:80/","20100123044534","http://web.archive.org/web/","web","/_static/",
+	      "1264221934","uk.wii.com:80");
+</script>
+<link rel="stylesheet" type="text/css" href="./old_wii_uk_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./old_wii_uk_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+<!-- PageID 2 - published by Open Text Web Solutions 9 - 9.0.1.28 - 26664 -->
+        <title>Wii.com - Start</title>
+        
+        <meta name="revisit-after" content="7 days">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="en">
+        <meta name="date" content="2010-01-15 05:35:12">        
+
+        
+        
+        
+        
+        
+        <link rel="stylesheet" media="all" type="text/css" href="./old_wii_uk_files/modal.css"><link rel="stylesheet" media="all" type="text/css" href="./old_wii_uk_files/base.css"><link rel="stylesheet" media="all" type="text/css" href="./old_wii_uk_files/saved_resource">
+        <!--[if lte IE 6]>
+            <link rel="stylesheet" media="all" type="text/css" href="/wii/css/ie_modifications.css" />
+        <![endif]-->
+        
+        <script type="text/javascript" src="./old_wii_uk_files/prototype.js.download"></script><script type="text/javascript" src="./old_wii_uk_files/flashgateway.js.download"></script><script type="text/javascript" src="./old_wii_uk_files/flashproxy.js.download"></script><script type="text/javascript" src="./old_wii_uk_files/helper.js.download"></script><script type="text/javascript" src="./old_wii_uk_files/window.js.download"></script><script type="text/javascript" src="./old_wii_uk_files/flvplayer.js.download"></script><script type="text/javascript" src="./old_wii_uk_files/swfobject.js.download"></script>
+
+        <link rel="alternate" type="application/rss+xml" title="Wii.com" href="http://web.archive.org/web/20100123044534/http://uk.wii.com/wii/en_GB/rss.xml">
+    <meta name="shimejiBrowserExtensionId" content="gohjpllcolmccldfdggmamodembldgpc" data-version="1.6.3"><style type="text/css">
+@charset "UTF-8";
+/*!
+ * jQuery contextMenu - Plugin for simple contextMenu handling
+ *
+ * Version: v2.5.0
+ *
+ * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://swisnl.github.io/jQuery-contextMenu/
+ *
+ * Copyright (c) 2011-2017 SWIS BV and contributors
+ *
+ * Licensed under
+ *   MIT License http://www.opensource.org/licenses/mit-license
+ *
+ * Date: 2017-05-25T11:30:28.663Z
+ */
+@-webkit-keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+@-o-keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+         -o-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+         -o-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+@keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+         -o-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+         -o-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+
+@font-face {
+  font-family: "context-menu-icons";
+  font-style: normal;
+  font-weight: normal;
+
+  src: url("font/context-menu-icons.eot?4yg1f");
+  src: url("font/context-menu-icons.eot?4yg1f#iefix") format("embedded-opentype"), url("font/context-menu-icons.woff2?4yg1f") format("woff2"), url("font/context-menu-icons.woff?4yg1f") format("woff"), url("font/context-menu-icons.ttf?4yg1f") format("truetype");
+}
+
+.context-menu-icon-add:before {
+  content: "EA01";
+}
+
+.context-menu-icon-copy:before {
+  content: "EA02";
+}
+
+.context-menu-icon-cut:before {
+  content: "EA03";
+}
+
+.context-menu-icon-delete:before {
+  content: "EA04";
+}
+
+.context-menu-icon-edit:before {
+  content: "EA05";
+}
+
+.context-menu-icon-loading:before {
+  content: "EA06";
+}
+
+.context-menu-icon-paste:before {
+  content: "EA07";
+}
+
+.context-menu-icon-quit:before {
+  content: "EA08";
+}
+
+.context-menu-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em;
+  font-family: "context-menu-icons";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.context-menu-icon.context-menu-hover:before {
+  color: #fff;
+}
+
+.context-menu-icon.context-menu-disabled::before {
+  color: #bbb;
+}
+
+.context-menu-icon.context-menu-icon-loading:before {
+  -webkit-animation: cm-spin 2s infinite;
+       -o-animation: cm-spin 2s infinite;
+          animation: cm-spin 2s infinite;
+}
+
+.context-menu-icon.context-menu-icon--fa {
+  display: list-item;
+  font-family: inherit;
+}
+.context-menu-icon.context-menu-icon--fa::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em;
+  font-family: FontAwesome;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-hover:before {
+  color: #fff;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-disabled::before {
+  color: #bbb;
+}
+
+.context-menu-list {
+  position: absolute;
+  display: inline-block;
+  min-width: 13em;
+  max-width: 26em;
+  padding: .25em 0;
+  margin: .3em;
+  font-family: inherit;
+  font-size: inherit;
+  list-style-type: none;
+  background: #fff;
+  border: 1px solid #bebebe;
+  border-radius: .2em;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.context-menu-item {
+  position: relative;
+  padding: .2em 2em;
+  color: #2f2f2f;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #fff;
+}
+
+.context-menu-separator {
+  padding: 0;
+  margin: .35em 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.context-menu-item > label > input,
+.context-menu-item > label > textarea {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.context-menu-item.context-menu-hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2980b9;
+}
+
+.context-menu-item.context-menu-disabled {
+  color: #bbb;
+  cursor: default;
+  background-color: #fff;
+}
+
+.context-menu-input.context-menu-hover {
+  color: #2f2f2f;
+  cursor: default;
+}
+
+.context-menu-submenu:after {
+  position: absolute;
+  top: 50%;
+  right: .5em;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  content: '';
+  border-color: transparent transparent transparent #2f2f2f;
+  border-style: solid;
+  border-width: .25em 0 .25em .25em;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+/**
+ * Inputs
+ */
+.context-menu-item.context-menu-input {
+  padding: .3em .6em;
+}
+
+/* vertically align inside labels */
+.context-menu-input > label > * {
+  vertical-align: top;
+}
+
+/* position checkboxes and radios as icons */
+.context-menu-input > label > input[type="checkbox"],
+.context-menu-input > label > input[type="radio"] {
+  position: relative;
+  top: .12em;
+  margin-right: .4em;
+}
+
+.context-menu-input > label {
+  margin: 0;
+}
+
+.context-menu-input > label,
+.context-menu-input > label > input[type="text"],
+.context-menu-input > label > textarea,
+.context-menu-input > label > select {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.context-menu-input > label > textarea {
+  height: 7em;
+}
+
+.context-menu-item > .context-menu-list {
+  top: .3em;
+  /* re-positioned by js */
+  right: -.3em;
+  display: none;
+}
+
+.context-menu-item.context-menu-visible > .context-menu-list {
+  display: block;
+}
+
+.context-menu-accesskey {
+  text-decoration: underline;
+}
+</style><style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.context-menu-list {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 14px;
+  text-align: left;
+  font-weight: normal;
+  width: 200px;
+}
+.context-menu-item {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+.contextmenu-item-custom.contextmenu-item-custom__accent:not(:hover) {
+  background-color: #f8ffeb;
+}
+.contextmenu-item-custom.contextmenu-item-custom__success:not(:hover) {
+  background-color: #eeffcd;
+}
+</style><style id="stylish-4" class="stylish" type="text/css">.pr_hd_wrapper {
+    margin: 0 auto;
+    padding: 42px 0 0;
+    width: 1000px;
+}
+/* i really want this to be global */</style><meta name="shimejiBrowserExtensionId" content="gohjpllcolmccldfdggmamodembldgpc" data-version="1.6.3"><style type="text/css">
+@charset "UTF-8";
+/*!
+ * jQuery contextMenu - Plugin for simple contextMenu handling
+ *
+ * Version: v2.5.0
+ *
+ * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://swisnl.github.io/jQuery-contextMenu/
+ *
+ * Copyright (c) 2011-2017 SWIS BV and contributors
+ *
+ * Licensed under
+ *   MIT License http://www.opensource.org/licenses/mit-license
+ *
+ * Date: 2017-05-25T11:30:28.663Z
+ */
+@-webkit-keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+@-o-keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+         -o-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+         -o-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+@keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+         -o-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+         -o-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+
+@font-face {
+  font-family: "context-menu-icons";
+  font-style: normal;
+  font-weight: normal;
+
+  src: url("font/context-menu-icons.eot?4yg1f");
+  src: url("font/context-menu-icons.eot?4yg1f#iefix") format("embedded-opentype"), url("font/context-menu-icons.woff2?4yg1f") format("woff2"), url("font/context-menu-icons.woff?4yg1f") format("woff"), url("font/context-menu-icons.ttf?4yg1f") format("truetype");
+}
+
+.context-menu-icon-add:before {
+  content: "EA01";
+}
+
+.context-menu-icon-copy:before {
+  content: "EA02";
+}
+
+.context-menu-icon-cut:before {
+  content: "EA03";
+}
+
+.context-menu-icon-delete:before {
+  content: "EA04";
+}
+
+.context-menu-icon-edit:before {
+  content: "EA05";
+}
+
+.context-menu-icon-loading:before {
+  content: "EA06";
+}
+
+.context-menu-icon-paste:before {
+  content: "EA07";
+}
+
+.context-menu-icon-quit:before {
+  content: "EA08";
+}
+
+.context-menu-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em;
+  font-family: "context-menu-icons";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.context-menu-icon.context-menu-hover:before {
+  color: #fff;
+}
+
+.context-menu-icon.context-menu-disabled::before {
+  color: #bbb;
+}
+
+.context-menu-icon.context-menu-icon-loading:before {
+  -webkit-animation: cm-spin 2s infinite;
+       -o-animation: cm-spin 2s infinite;
+          animation: cm-spin 2s infinite;
+}
+
+.context-menu-icon.context-menu-icon--fa {
+  display: list-item;
+  font-family: inherit;
+}
+.context-menu-icon.context-menu-icon--fa::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em;
+  font-family: FontAwesome;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-hover:before {
+  color: #fff;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-disabled::before {
+  color: #bbb;
+}
+
+.context-menu-list {
+  position: absolute;
+  display: inline-block;
+  min-width: 13em;
+  max-width: 26em;
+  padding: .25em 0;
+  margin: .3em;
+  font-family: inherit;
+  font-size: inherit;
+  list-style-type: none;
+  background: #fff;
+  border: 1px solid #bebebe;
+  border-radius: .2em;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.context-menu-item {
+  position: relative;
+  padding: .2em 2em;
+  color: #2f2f2f;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #fff;
+}
+
+.context-menu-separator {
+  padding: 0;
+  margin: .35em 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.context-menu-item > label > input,
+.context-menu-item > label > textarea {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.context-menu-item.context-menu-hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2980b9;
+}
+
+.context-menu-item.context-menu-disabled {
+  color: #bbb;
+  cursor: default;
+  background-color: #fff;
+}
+
+.context-menu-input.context-menu-hover {
+  color: #2f2f2f;
+  cursor: default;
+}
+
+.context-menu-submenu:after {
+  position: absolute;
+  top: 50%;
+  right: .5em;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  content: '';
+  border-color: transparent transparent transparent #2f2f2f;
+  border-style: solid;
+  border-width: .25em 0 .25em .25em;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+/**
+ * Inputs
+ */
+.context-menu-item.context-menu-input {
+  padding: .3em .6em;
+}
+
+/* vertically align inside labels */
+.context-menu-input > label > * {
+  vertical-align: top;
+}
+
+/* position checkboxes and radios as icons */
+.context-menu-input > label > input[type="checkbox"],
+.context-menu-input > label > input[type="radio"] {
+  position: relative;
+  top: .12em;
+  margin-right: .4em;
+}
+
+.context-menu-input > label {
+  margin: 0;
+}
+
+.context-menu-input > label,
+.context-menu-input > label > input[type="text"],
+.context-menu-input > label > textarea,
+.context-menu-input > label > select {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.context-menu-input > label > textarea {
+  height: 7em;
+}
+
+.context-menu-item > .context-menu-list {
+  top: .3em;
+  /* re-positioned by js */
+  right: -.3em;
+  display: none;
+}
+
+.context-menu-item.context-menu-visible > .context-menu-list {
+  display: block;
+}
+
+.context-menu-accesskey {
+  text-decoration: underline;
+}
+</style><style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.context-menu-list {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 14px;
+  text-align: left;
+  font-weight: normal;
+  width: 200px;
+}
+.context-menu-item {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+.contextmenu-item-custom.contextmenu-item-custom__accent:not(:hover) {
+  background-color: #f8ffeb;
+}
+.contextmenu-item-custom.contextmenu-item-custom__success:not(:hover) {
+  background-color: #eeffcd;
+}
+</style></head><style id="stylish-4" class="stylish" type="text/css">.pr_hd_wrapper {
+    margin: 0 auto;
+    padding: 42px 0 0;
+    width: 1000px;
+}
+/* i really want this to be global */</style>
+
+    <body onload="documentViewHelper.init();"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="./old_wii_uk_files/donate.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(625,27,25,2,"web","http://uk.wii.com/","20100123044534",1996,"/_static/",["/_static/css/banner-styles.css?v=_99BHQfY","/_static/css/iconochive.css?v=qtvMKcIJ"]);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+    
+    
+            
+
+
+        <div id="wrapper">
+            <a name="top" id="top">&nbsp;</a>
+            <div id="header">
+                <a href="https://andrio.neocities.org/404"><img class="left" src="./old_wii_uk_files/header_logo.gif" alt="" title=""></a>
+                <ul class="nav">
+    <li id="experience" class="">
+        <a href="https://andrio.neocities.org/404">
+            <img id="experience_img" src="./old_wii_uk_files/gnavi_exp_uk.gif">
+        </a>
+    </li>
+</ul>
+<ul class="nav">
+    <li id="channel" class="">
+        <a href="https://andrio.neocities.org/404" title="Wii Channel">
+            <img id="channel_img" src="./old_wii_uk_files/gnavi_chnl_uk.gif">
+        </a>
+    </li>
+</ul>
+<ul class="nav">
+    <li id="tv" class="">
+        <a href="https://andrio.neocities.org/404" title="Wii TV">
+            <img id="tv_img" src="./old_wii_uk_files/gnavi_wiitv_uk.gif">
+        </a>
+    </li>
+</ul>
+<ul class="nav">
+    <li id="software" class="">
+        <a href="https://andrio.neocities.org/404" title="Wii Software">
+            <img id="software_img" src="./old_wii_uk_files/gnavi_software_uk.gif">
+        </a>
+    </li>
+</ul>
+<ul class="nav">
+    <li id="wiiware" class="">
+        <a href="https://andrio.neocities.org/404" title="WiiWare">
+            <img id="wiiware_img" src="./old_wii_uk_files/gnavi_wiiware.gif">
+        </a>
+    </li>
+</ul>
+
+                <ul class="wiicom_logo">
+<li><a href="https://andrio.neocities.org/404"><img src="./old_wii_uk_files/header_b_global.gif" alt="Wii.com" title="Wii.com"></a></li>
+</ul>
+            </div>
+
+            
+            <div id="content" class="clearfix">
+                
+                
+    
+                
+                 
+             
+                            
+                
+
+<div id="content_home" class="clearfix">
+  <div id="cont_left">
+    
+    
+
+
+
+
+
+
+
+
+
+<div id="promo">
+    
+    <a href="http://web.archive.org/web/20100123044534/http://uk.wii.com/wii/en_GB/wiiware/wii_connect_853.html" title="New Super Mario Bros. Wii"></a>
+</div>
+
+<script language="javascript" type="text/javascript">
+    var fo = new FlashObject("", "Wii", "560", "280", "7", "#ffffff");
+    fo.addVariable("TeaserURL", "http://web.archive.org/web/20100123044534/http://uk.wii.com/wii/en_GB/wiiware/wii_connect_853.html");
+    fo.addVariable("TeaserTarget", "_self");
+    fo.addParam("wmode", "transparent");
+    
+</script>
+
+
+<div class="banner">
+    <a href="https://andrio.neocities.org/404"><img src="./old_wii_uk_files/crb_wiiconnect_enGB.jpg" alt="Image" title="Image"></a>
+</div>
+
+
+ 
+<!---->
+
+
+
+
+
+<div id="more_news">
+    
+    
+
+
+
+
+
+
+<div class="newsitem">    
+    <div class="bar_top"></div>
+    <div class="left newsdate">
+        11.12.2009 
+    </div>
+    <div class="right newstext">
+        <p><a href="https://andrio.neocities.org/404">Learn more about the past and present of Mario in a new Iwata Asks interview</a></p>
+        <a href="https://andrio.neocities.org/404">Continue your education in all things Mario by reading the latest interview in our Iwata Asks series. In the second volume of Iwata Asks: New Super Mario Bros. Wii, the Nintendo President sits down with two more of the key players involved in shaping Mario and his world for the last quarter of a century.</a>
+        
+    </div>
+    <div class="bar_bottom"></div>
+</div>
+
+
+
+
+
+
+<div class="newsitem">    
+    <div class="bar_top"></div>
+    <div class="left newsdate">
+        25.11.2009 
+    </div>
+    <div class="right newstext">
+        <p><a href="https://andrio.neocities.org/404">Iwata Asks: New Super Mario Bros. Wii</a></p>
+        <a href="https://andrio.neocities.org/404">Shigeru Miyamoto and Satoru Iwata take an in-depth look at Mario past and present.<br><br>With Mario returning to his 2D platform roots in New Super Mario Bros. Wii, Nintendo President Satoru Iwata spoke to Mario creator Shigeru Miyamoto for the latest interview in the Iwata Asks series.</a>
+        
+    </div>
+    <div class="bar_bottom"></div>
+</div>
+
+
+
+
+
+
+<div class="newsitem">    
+    <div class="bar_top"></div>
+    <div class="left newsdate">
+        20.11.2009 
+    </div>
+    <div class="right newstext">
+        <p><a href="https://andrio.neocities.org/404">Join Mario and friends for an epic new adventure that everyone can enjoy together!</a></p>
+        <a href="https://andrio.neocities.org/404">Dust down your dungarees and prepare to embark on an incredible new Mario adventure for Wii. In shops across Europe today, New Super Mario Bros. Wii features old-school platform-hopping action blended with a raft of exciting new twists.<br><br>For the first time in a Mario adventure, you’ll be able to set out in search of Princess Peach with up to four players. Work together or fend for yourself as you put new Power-Ups to work and leap through colourful worlds, using the motion-sensing abilities of the Wii Remote along the way to perform special actions.</a>
+        
+    </div>
+    <div class="bar_bottom"></div>
+</div>
+
+    
+    
+    <div class="left">
+        
+    </div>
+    <div id="more_news_container">
+        <div class="item dot">
+            <a href="http://web.archive.org/web/20100123044534/http://uk.wii.com/wii/en_GB/news_17.html" alt="More News" title="More News">
+                
+            </a>
+        </div>
+    </div>
+</div>
+  </div>
+      
+</div> 
+            </div>
+
+            
+
+            <div id="footer" class="clearfix">
+    <ul class="subnav">
+        <li><a href="http://web.archive.org/web/20100123044534/http://www.nintendo.co.uk/NOE/en_GB/wii_54.html" target="_blank" title="More Wii-info"></a></li>
+        <li><img height="29" width="1" src="./old_wii_uk_files/34beed.gif"></li>
+        <li><a href="http://web.archive.org/web/20100123044534/http://www.nintendo.co.uk/NOE/en_GB/service/contact_2095.html" target="_blank"></a></li>
+        <li><a href="http://web.archive.org/web/20100123044534/http://www.nintendo.co.uk/NOE/en_GB/news/index_newsletter.jsp?source=uk.wii.com&amp;interest=wii,virtualconsole" target="_blank"></a></li> 
+        <li><a href="http://web.archive.org/web/20100123044534/http://uk.wii.com/wii/en_GB/terms_and_conditions_1461.html" target="_self"></a></li>
+    </ul>
+    <div class="nintendo_logo">
+        <a href="https://andrio.neocities.org/404"><img height="34" width="85" alt="Nintendo of Europe" title="Nintendo of Europe" src="./old_wii_uk_files/footer_nintendo_logo.gif"></a></div>
+    </div>
+</div>            
+        
+        
+    
+
+<!--
+playback timings (ms):
+  load_resource: 153.694
+  xauthn.chkprivs: 0.16
+  xauthn.identify: 213.498
+  captures_list: 593.193
+  PetaboxLoader3.resolve: 110.046 (3)
+  CDXLines.iter: 30.03 (3)
+  exclusion.robots: 214.725
+  PetaboxLoader3.datanode: 202.738 (4)
+  RedisCDXSource: 1.733
+  LoadShardBlock: 326.803 (3)
+  exclusion.robots.policy: 214.701
+  esindex: 0.021
+--><div id="shimai-world" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483647; pointer-events: none; background: transparent;"></div><div id="shimai-world" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483647; pointer-events: none; background: transparent;"></div></body></html>

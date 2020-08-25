@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0068)http://web.archive.org/web/20050728000702/http://www.apple.com/emac/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script src="./old_apple_emac_page_files/analytics.js(1).download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app58.us.archive.org';v.server_ms=4167;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./old_apple_emac_page_files/playback.bundle.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./old_apple_emac_page_files/wombat.js.download" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.apple.com:80/emac/","20050728000702","http://web.archive.org/web/","web","/_static/",
+	      "1122509222","www.apple.com:80");
+</script>
+<link rel="stylesheet" type="text/css" href="./old_apple_emac_page_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./old_apple_emac_page_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Apple - eMac</title>
+
+<meta http-equiv="pics-label" content="(pics-1.1 &quot;http://www.icra.org/ratingsv02.html&quot; l gen true for &quot;http://www.apple.com&quot; r (cz 1 lz 1 nz 1 oz 1 vz 1) &quot;http://www.rsac.org/ratingsv01.html&quot; l gen true for &quot;http://www.apple.com&quot; r (n 0 s 0 v 0 l 0))">
+<meta http-equiv="Expires" content="Fri, 26 Mar 1999 23:59:59 GMT">
+<meta name="Author" content="Apple Computer, Inc.">
+<link rel="home" href="http://www.apple.com/">
+<link rel="index" href="http://www.apple.com/find/sitemap.html">
+<link rel="stylesheet" type="text/css" href="./old_apple_emac_page_files/global.css" media="all">
+<link rel="stylesheet" type="text/css" href="./old_apple_emac_page_files/emac.css" media="all">
+<link rel="stylesheet" type="text/css" href="./old_apple_emac_page_files/globalprint.css" media="print">
+<style type="text/css" media="all">
+#buynow h3, #buynow p {margin-left: 65px;}
+</style>
+<meta name="shimejiBrowserExtensionId" content="gohjpllcolmccldfdggmamodembldgpc" data-version="1.6.3"><style type="text/css">
+@charset "UTF-8";
+/*!
+ * jQuery contextMenu - Plugin for simple contextMenu handling
+ *
+ * Version: v2.5.0
+ *
+ * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://swisnl.github.io/jQuery-contextMenu/
+ *
+ * Copyright (c) 2011-2017 SWIS BV and contributors
+ *
+ * Licensed under
+ *   MIT License http://www.opensource.org/licenses/mit-license
+ *
+ * Date: 2017-05-25T11:30:28.663Z
+ */
+@-webkit-keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+@-o-keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+         -o-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+         -o-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+@keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+         -o-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+         -o-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+
+@font-face {
+  font-family: "context-menu-icons";
+  font-style: normal;
+  font-weight: normal;
+
+  src: url("font/context-menu-icons.eot?4yg1f");
+  src: url("font/context-menu-icons.eot?4yg1f#iefix") format("embedded-opentype"), url("font/context-menu-icons.woff2?4yg1f") format("woff2"), url("font/context-menu-icons.woff?4yg1f") format("woff"), url("font/context-menu-icons.ttf?4yg1f") format("truetype");
+}
+
+.context-menu-icon-add:before {
+  content: "EA01";
+}
+
+.context-menu-icon-copy:before {
+  content: "EA02";
+}
+
+.context-menu-icon-cut:before {
+  content: "EA03";
+}
+
+.context-menu-icon-delete:before {
+  content: "EA04";
+}
+
+.context-menu-icon-edit:before {
+  content: "EA05";
+}
+
+.context-menu-icon-loading:before {
+  content: "EA06";
+}
+
+.context-menu-icon-paste:before {
+  content: "EA07";
+}
+
+.context-menu-icon-quit:before {
+  content: "EA08";
+}
+
+.context-menu-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em;
+  font-family: "context-menu-icons";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.context-menu-icon.context-menu-hover:before {
+  color: #fff;
+}
+
+.context-menu-icon.context-menu-disabled::before {
+  color: #bbb;
+}
+
+.context-menu-icon.context-menu-icon-loading:before {
+  -webkit-animation: cm-spin 2s infinite;
+       -o-animation: cm-spin 2s infinite;
+          animation: cm-spin 2s infinite;
+}
+
+.context-menu-icon.context-menu-icon--fa {
+  display: list-item;
+  font-family: inherit;
+}
+.context-menu-icon.context-menu-icon--fa::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em;
+  font-family: FontAwesome;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-hover:before {
+  color: #fff;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-disabled::before {
+  color: #bbb;
+}
+
+.context-menu-list {
+  position: absolute;
+  display: inline-block;
+  min-width: 13em;
+  max-width: 26em;
+  padding: .25em 0;
+  margin: .3em;
+  font-family: inherit;
+  font-size: inherit;
+  list-style-type: none;
+  background: #fff;
+  border: 1px solid #bebebe;
+  border-radius: .2em;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.context-menu-item {
+  position: relative;
+  padding: .2em 2em;
+  color: #2f2f2f;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #fff;
+}
+
+.context-menu-separator {
+  padding: 0;
+  margin: .35em 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.context-menu-item > label > input,
+.context-menu-item > label > textarea {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.context-menu-item.context-menu-hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2980b9;
+}
+
+.context-menu-item.context-menu-disabled {
+  color: #bbb;
+  cursor: default;
+  background-color: #fff;
+}
+
+.context-menu-input.context-menu-hover {
+  color: #2f2f2f;
+  cursor: default;
+}
+
+.context-menu-submenu:after {
+  position: absolute;
+  top: 50%;
+  right: .5em;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  content: '';
+  border-color: transparent transparent transparent #2f2f2f;
+  border-style: solid;
+  border-width: .25em 0 .25em .25em;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+/**
+ * Inputs
+ */
+.context-menu-item.context-menu-input {
+  padding: .3em .6em;
+}
+
+/* vertically align inside labels */
+.context-menu-input > label > * {
+  vertical-align: top;
+}
+
+/* position checkboxes and radios as icons */
+.context-menu-input > label > input[type="checkbox"],
+.context-menu-input > label > input[type="radio"] {
+  position: relative;
+  top: .12em;
+  margin-right: .4em;
+}
+
+.context-menu-input > label {
+  margin: 0;
+}
+
+.context-menu-input > label,
+.context-menu-input > label > input[type="text"],
+.context-menu-input > label > textarea,
+.context-menu-input > label > select {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.context-menu-input > label > textarea {
+  height: 7em;
+}
+
+.context-menu-item > .context-menu-list {
+  top: .3em;
+  /* re-positioned by js */
+  right: -.3em;
+  display: none;
+}
+
+.context-menu-item.context-menu-visible > .context-menu-list {
+  display: block;
+}
+
+.context-menu-accesskey {
+  text-decoration: underline;
+}
+</style><style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.context-menu-list {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 14px;
+  text-align: left;
+  font-weight: normal;
+  width: 200px;
+}
+.context-menu-item {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+.contextmenu-item-custom.contextmenu-item-custom__accent:not(:hover) {
+  background-color: #f8ffeb;
+}
+.contextmenu-item-custom.contextmenu-item-custom__success:not(:hover) {
+  background-color: #eeffcd;
+}
+</style></head><style id="stylish-4" class="stylish" type="text/css">.pr_hd_wrapper {
+    margin: 0 auto;
+    padding: 42px 0 0;
+    width: 1000px;
+}
+/* i really want this to be global */</style>
+<body bgcolor="#ffffff" id="bodyemac"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="./old_apple_emac_page_files/donate.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(625,27,25,2,"web","http://www.apple.com/emac/","20050728000702",1996,"/_static/",["/_static/css/banner-styles.css?v=_99BHQfY","/_static/css/iconochive.css?v=qtvMKcIJ"]);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<!-- START NAV BAR TABLE -->
+<div id="tabs">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td width="49%" valign="TOP" background="./old_apple_emac_page_files/1bg.gif"><img src="./old_apple_emac_page_files/1bg.gif" width="1" height="52" alt="" align="RIGHT" border="0"></td>
+		<td width="2%" valign="TOP" align="CENTER">
+		<table width="725" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td width="725" valign="TOP"><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/1.gif" width="118" height="32" alt="Apple" border="0"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/2.gif" width="98" height="32" alt="The Apple Store" border="0"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/3.gif" width="98" height="32" alt="iPod+iTunes" border="0"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/4.gif" width="98" height="32" alt=".Mac" border="0"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/5.gif" width="98" height="32" alt="QuickTime" border="0"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/6.gif" width="98" height="32" alt="Apple Support" border="0"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/7.gif" width="117" height="32" border="0" alt="Mac OS X"></a></td>
+			</tr>
+			<tr>
+				<td width="725" valign="TOP"><img src="./old_apple_emac_page_files/1.1left.gif" width="21" height="20" border="0" alt=""><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/1.1a.gif" width="71" height="20" border="0" alt="Hot News"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/1.1b.gif" width="55" height="20" border="0" alt="Switch"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/1.1chi.gif" width="71" height="20" border="0" alt="Hardware"></a><a href="https://andrio.neocities.org/404"><img width="66" src="./old_apple_emac_page_files/1.1d.gif" alt="Software" height="20" border="0"></a><a href="https://andrio.neocities.org/404"><img width="78" src="./old_apple_emac_page_files/1.1e.gif" alt="Made4Mac" height="20" border="0"></a><a href="https://andrio.neocities.org/404"><img width="72" src="./old_apple_emac_page_files/1.1f.gif" alt="Education" height="20" border="0"></a><a href="https://andrio.neocities.org/404"><img width="38" src="./old_apple_emac_page_files/1.1g.gif" alt="Pro" height="20" border="0"></a><a href="https://andrio.neocities.org/404"><img width="65" src="./old_apple_emac_page_files/1.1h.gif" alt="business" height="20" border="0"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/1.1i.gif" height="20" width="75" alt="Developer" border="0"></a><a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/1.1j.gif" width="91" height="20" border="0" alt="Where to Buy"></a><img src="./old_apple_emac_page_files/1.1right.gif" width="22" height="20" border="0" alt=""></td>
+			</tr> 
+		</tbody></table>
+		</td>
+		<td width="49%" valign="TOP" background="./old_apple_emac_page_files/1bg.gif"><img src="./old_apple_emac_page_files/1bg.gif" width="1" height="52" alt="" align="LEFT" border="0"></td>
+	</tr>
+</tbody></table>
+</div>
+<!-- END NAV BAR TABLE -->
+
+<!-- SiteCatalyst code version: G.6.
+
+Copyright 1997-2004 Omniture, Inc. More info available at
+
+http://www.omniture.com --><script language="JavaScript" type="text/javascript"><!--
+
+/* You may give each page an identifying name, server, and channel on
+
+the next lines. */
+
+var s_pageName=document.title+" (US)";
+var s_server=""
+var s_channel="www.us.emac"
+var s_pageType=""
+var s_prop1=""
+var s_prop2=""
+var s_prop3=""
+var s_prop4=document.location;
+var s_prop5=""
+var s_hier1=""
+/* E-commerce Variables */
+var s_campaign=""
+var s_state=""
+var s_zip=""
+var s_events=""
+var s_products=""
+var s_purchaseID=""
+var s_eVar1=""
+var s_eVar2=""
+var s_eVar3=""
+var s_eVar4=""
+var s_eVar5=""
+
+/* Specify the Report Suite ID(s) to track here */
+var s_account="appleglobal,appleusemac"
+
+var s_linkInternalFilters="javascript:,apple.com"
+
+/********* INSERT THE DOMAIN AND PATH TO YOUR CODE BELOW ************/
+
+//--></script><script language="JavaScript" type="text/javascript" src="./old_apple_emac_page_files/s_code_remote.js.download"></script><img name="s_i_applesuperglobal" height="1" width="1" border="0" alt="" src="./old_apple_emac_page_files/s61107638888888">
+
+<!-- End SiteCatalyst code version: G.6. -->
+
+
+
+<div id="main">
+	<div id="content" class="column">
+		<p class="intro">Take a good look at eMac. What’s not to like? All-in-one design, plug-and-play simplicity, great performance and an affordable price tag: Starting at just $799, you get everything you need to work, learn and play, right out of the box.</p>
+
+		<img src="./old_apple_emac_page_files/index_allinone041804.jpg" alt="All-in-One" width="123" height="139" border="0" class="right">
+		<h3>Have It All</h3>
+		<p>With a new eMac, you get <a href="https://andrio.neocities.org/404">Mac OS X Tiger</a>, the entire suite of <a href="https://andrio.neocities.org/404">iLife</a> applications and a powerful G4 processor for a song. Speaking of songs, choose an eMac with the new <a href="https://andrio.neocities.org/404">SuperDrive</a> and you’ll be burning up to 2100 of them (or up to 4 hours of MPEG-2 video) on a single double-layer DVD.</p>
+
+		<a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/ilifeincluded200500503.gif" alt="ilife" width="85" height="85" border="0" class="left"></a>
+		<h3>A Five-Star Lineup</h3>
+		<p>Feeling creative? You don’t have to search very far to find the tools you need. Just open your Applications folder, where you’ll discover a true digital treasure trove: iTunes, iPhoto, iMovie HD, iDVD and GarageBand. Individually, the five iLife ’05 applications offer powerful yet easy-to-use options for purchasing and managing music, organizing digital photos, editing videos, creating your own top-ten tunes and authoring DVDs you can share with friends and family. But it’s when you use them together that iLife ’05 really shines, providing a suite of tightly-integrated tools that work together seamlessly and place no limits on your talent or creativity.</p>
+
+		<h3>Options to Burn</h3>
+		<p>Choices, choices. Maybe you prefer the $799 eMac with a Combo drive, which lets you read DVDs and read, write and burn CDs. Or perhaps you want to opt for the $999, 8x SuperDrive-equipped eMac, which gives you double-layer DVD burning support — doubling the disc storage capacity to 8.5GB over traditional, 4.7GB single-layer discs. Either way, you’ll find lots of ways to enjoy your all-in-one digital hub.</p>
+
+		<a href="http://web.archive.org/web/20050728000702/http://www.apple.com/emac/software.html"><img src="./old_apple_emac_page_files/index_idvdscreen041804.jpg" alt="iDVD" width="167" height="151" class="left" border="0"></a>
+		<p>Take watching movies, for example. Both models play Hollywood’s finest movies on DVD, and the DVD Player, an application included with Mac OS X Tiger, is as easy to use as the remote controls on your living room remote. Both eMac models also allow you to burn CDs. In iTunes, for example, you can create your own playlists — “Music to Drive By,” “Gotta Dance,” “Late Nite Tunes” — and then burn audio or MP3 CDs to play in your car or home stereo. You can also burn data CDs — right from the desktop; that’s a simple way to back up important documents or share projects with colleagues at work.</p>
+
+		<p>Use the <a href="https://andrio.neocities.org/404">SuperDrive</a>-equipped eMac to archive thousands of digital photographs with iPhoto on a single DVD. Or use iDVD to create your own Hollywood-style DVDs that combine your iMovie HD projects and iPhoto slideshows, both accompanied by iTunes playlists. The DVDs play in most consumer DVD players, so you can pop your DVD titles in the mail and share them with far-flung friends and relatives. And you can do it all in a snap: The SuperDrive in eMac burns single-layer DVDs at up to 8x speed and high-capacity, double-layer DVDs at up to 2.4x speed. </p>
+
+		<a href="http://web.archive.org/web/20050728000702/http://www.apple.com/emac/specs.html"><img src="./old_apple_emac_page_files/index_wireless041804.jpg" alt="AirPort" width="200" height="59" class="left" border="0"></a>
+		<h3 class="indent">Get Connected.</h3>
+		<p>Because the eMac ships <a href="https://andrio.neocities.org/404">AirPort Extreme-ready</a>, you can put your new eMac anywhere in the house, not just where the phone jack or broadband connection happens to be.<font class="sosumi">(1)</font> Order eMac with an AirPort Extreme Card already installed, or install it yourself. Once installed, the AirPort Extreme Card lets you wirelessly connect to the Internet or communicate with other computers using an optional AirPort Express or AirPort Extreme Base Station. The AirPort Express Base Station even features AirTunes, allowing you to enjoy your iTunes music library in virtually any room of your house.</p> 
+		<a href="http://web.archive.org/web/20050728000702/http://www.apple.com/emac/specs.html"><img src="./old_apple_emac_page_files/index_bluetooth041804.gif" alt="BlueTooth" width="49" height="74" class="right" border="0"></a>
+		<p>Order an eMac with the optional internal Bluetooth module installed, and you can use an Apple Wireless Keyboard and Mouse to work from up to 30 feet away without cables. Or wirelessly sync the contacts and phone numbers stored in your Mac OS X Address Book with a wide assortment of Bluetooth cell phones and PDAs. That’ll save you time.</p>
+
+		<p>In addition to AirPort Extreme and Bluetooth, you’ll also enjoy other top-of-the-line connectivity features. Every eMac comes with <a href="https://andrio.neocities.org/404">FireWire 400</a> and <a href="https://andrio.neocities.org/404">USB 2.0</a>, making it easy to connect with a wide variety of peripherals, such as digital cameras, camcorders, printers, scanners and the new iPod mini. Both a Modem (56K v.92) and 100BASE-T Ethernet come built in, providing you with multiple options for communicating over the Internet. A Mini-VGA port lets you connect eMac to an external projector or TV set, a great option for presentations. And, thanks to the headphone jack, you can connect headphones or external speakers to eMac.</p>
+
+		<img src="./old_apple_emac_page_files/index_g4041804.gif" alt="G4" width="83" height="82" class="left" border="0">
+		<h3>Affordable G4 Power</h3>
+		<p>The impressive 1.42GHz PowerPC G4 processor provides all of the power you need. Whether you create complex Excel spreadsheets or large Keynote presentations, eMac won’t miss a beat. And you’ll really enjoy eMac’s performance when you’re scrolling through thousands of digital photos in iPhoto or applying transitions between clips in iMovie HD. In fact, thanks to the PowerPC G4 processor with Velocity Engine, eMac even lets you create DVDs with iDVD. </p>
+
+		<ol class="sosumi">
+			<li>Wireless Internet access requires AirPort or AirPort Extreme Base Station, AirPort Extreme Card and Internet access (fees may apply). Some Internet service providers are not currently compatible with AirPort. Range may vary with site conditions.</li>
+			<li> Sold separately.</li>
+		</ol>
+	</div>
+	<div id="sidebar" class="column">
+		<div id="buynow">
+			<a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/buynow20050111.gif" width="52" height="52" border="0" alt="Buy Now" class="left"></a>
+			<h3><a href="https://andrio.neocities.org/404">Buy Online Now</a></h3>
+			<p>Direct from Apple 24-hours a day, or telephone 1-800-MY-APPLE.</p>
+		</div>
+		<div class="clearer">&nbsp;</div>
+		<h3><a href="https://andrio.neocities.org/404">The Apple Store</a></h3>
+		<p>Test drive the eMac, attend free workshops and meet Mac specialists who can answer your questions.</p>
+
+		<h3><a href="https://andrio.neocities.org/404">Find Your Local Resellers</a></h3>
+		<p>Shop at one of the thousands of Apple authorized resellers or Apple Specialists.</p>
+
+		
+
+		<img src="./old_apple_emac_page_files/spotlightdashicon20050503.jpg" alt="Spotlight and Dashboard" width="50" height="102" border="0" class="right">
+		<h3>Mac OS X Tiger</h3>
+		<p>Every eMac comes with <a href="https://andrio.neocities.org/404">Mac OS X Tiger</a>, the latest release of the world’s most advanced operating system. Tiger boasts more than 200 new features, including Spotlight, the lightning-fast search tool that lets you find anything on your system as fast as you type, and Dashboard, the home to handy widgets that access timely information such as stock prices or weather conditions around the world. Tiger turns your eMac into a finely tuned instrument that lets you focus on the tasks at hand, whether you’re creating a workout soundtrack for your iPod, assembling a vacation photo album or writing the family newsletter.</p>
+
+		<h3>Compatible with windows PCs</h3>
+		<p>Exchange files with Windows users? eMac and Mac OS X Tiger have you covered, letting you share files, send and receive emails, open enclosures and instant message with others who do their computing on a Windows PC. And because the eMac has been designed to fit in all network environments, you can use it to connect to both wired and wireless Mac and PC networks. What’s more, you can run popular software applications, such as Microsoft Office 2004 for Mac, and seamlessly connect to hundreds of digital devices with plug-and-play ease.</p>
+
+		<h3>Stand tall</h3>
+		<a href="https://andrio.neocities.org/404"><img src="./old_apple_emac_page_files/index_footprint20050503.jpg" alt="Footprint" width="94" height="107" class="right" border="0"></a>
+		<p>Apple designed this Tilt and Swivel stand<font class="sosumi">(2)</font> as an optional accessory. Using it, you can tilt eMac from -5° to +15° up and down or swivel your system 360°.</p>
+
+		<h3>Fastest way to the Internet</h3>
+		<a href="http://web.archive.org/web/20050728000702/http://www.apple.com/emac/software.html"><img src="./old_apple_emac_page_files/index_internet041804.jpg" alt="Internet" width="64" height="81" class="right" border="0"></a>
+		<p>You won’t believe how fast the eMac gets you on the <a href="https://andrio.neocities.org/404">Internet</a>. It’s so easy to set up and use, you’ll be online and surfing the web in minutes, using the 10/100BASE-T Ethernet port for broadband (including DSL and cable modems), the built-in 56K modem or an optional AirPort Extreme Card for connecting wirelessly<font class="sosumi">(1)</font>. You need an Ethernet connection or phone line — the eMac comes complete with everything else.</p>
+
+		<h3>One for all</h3>
+		<p>A family-friendly computer should be sturdy and durable. Luckily, the eMac is constructed from polycarbonate plastic — the same material used to manufacture bulletproof glass — so it will weather the enthusiasm of even the most active youngsters.</p>
+
+		<h3>Fast connections</h3>
+		<a href="http://web.archive.org/web/20050728000702/http://www.apple.com/emac/specs.html"><img src="./old_apple_emac_page_files/index_firewireusb041804.gif" alt="FireWire and USB" width="50" height="105" class="right" border="0"></a>
+		<p>When you need fast connections, eMac delivers. Its two fast <a href="https://andrio.neocities.org/404">FireWire</a> 400 ports were designed with camcorders, scanners, iPod and external hard drives in mind. And every new eMac has a total of five <a href="https://andrio.neocities.org/404">USB</a> ports — three USB 2.0 ports and two USB 1.1 ports (on the keyboard) — so you can connect to almost any type of digital device.</p>
+
+		<h3>Audio input</h3>
+		<p>An audio line-in jack lets you connect external audio sources such as a microphone or tape recorder to the eMac and import your own recordings.</p>
+	</div>
+</div>
+
+
+
+<!-- START INCLUDED FOOTER -->
+<!-- START SEARCH -->
+
+<p class="sosumi">Copyright © 2005 Apple Computer, Inc. All rights reserved.</p>
+<!-- END INCLUDED FOOTER -->
+
+
+
+
+<!--
+     FILE ARCHIVED ON 00:07:02 Jul 28, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:35:32 Aug 19, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 265.215
+  xauthn.identify: 264.7
+  captures_list: 1658.415
+  PetaboxLoader3.datanode: 815.222 (4)
+  PetaboxLoader3.resolve: 2035.164 (2)
+  RedisCDXSource: 919.581
+  load_resource: 2490.934
+  exclusion.robots: 265.233
+  esindex: 0.014
+  xauthn.chkprivs: 0.072
+  LoadShardBlock: 435.231 (3)
+  CDXLines.iter: 19.866 (3)
+--><div id="shimai-world" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483647; pointer-events: none; background: transparent;"></div></body></html>

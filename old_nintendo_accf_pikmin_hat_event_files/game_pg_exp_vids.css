@@ -1,0 +1,126 @@
+#gamePg_Exp_vidGallery {
+	margin: 0px;
+	padding: 20px 0px 0px;
+	clear: both;
+	height: auto;
+	width: 800px;
+}
+#gamePg_Exp_vidGallery dl {
+	margin: 0px;
+	width: 800px;
+	clear: both;
+	height: 225px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	}
+
+#gamePg_Exp_vidGallery dt {
+	height: 192px;
+	width: 800px;
+	background-image: url(/web/20090730080817im_/http://us.wii.com/images/video/gallery_bg.gif);
+	padding-top: 10px;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+}
+
+#gamePg_Exp_vidGallery2x {
+	margin: 0px;
+	padding: 20px 0px 0px;
+	clear: both;
+	height: auto;
+	width: 800px;
+}
+#gamePg_Exp_vidGallery2x dl {
+	margin: 0px;
+	width: 800px;
+	clear: both;
+	height: 225px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	}
+
+#gamePg_Exp_vidGallery2x dt {
+	height: 192px;
+	width: 800px;
+	background-image: url(/web/20090730080817im_/http://us.wii.com/images/video/gallery_bg.gif);
+	padding-top: 10px;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+}
+
+
+.vidGallery_td_wht {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.vidGalleryText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+}
+
+#gamePg_fuct {
+	margin: 0px;
+	padding: 20px 0px 20px 50px;
+	clear: both;
+	height: auto;
+	width: 800px;
+}
+
+.gamePg_fuctpad20right {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	color: #8C8C8C;
+	text-decoration: none;
+}
+.fuct_headline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #34beed;
+}
+.gamePg_fuctdisclaim {
+	margin: 0px;
+	padding: 20px 100px 20px 140px;
+	clear: both;
+	height: auto;
+	width: 600px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+}
+
+/*
+     FILE ARCHIVED ON 08:08:17 Jul 30, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:38:28 Aug 19, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 989.929
+  xauthn.chkprivs: 0.056
+  RedisCDXSource: 8.423
+  CDXLines.iter: 21.457 (3)
+  load_resource: 203.53
+  exclusion.robots: 168.649
+  xauthn.identify: 168.199
+  exclusion.robots.policy: 168.633
+  PetaboxLoader3.resolve: 309.564 (3)
+  PetaboxLoader3.datanode: 659.536 (4)
+  LoadShardBlock: 787.157 (3)
+  esindex: 0.014
+*/

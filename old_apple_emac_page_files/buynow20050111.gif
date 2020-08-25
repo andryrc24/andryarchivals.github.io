@@ -1,0 +1,739 @@
+ <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="Apple Inc." />
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/global/nav/styles/navigation.css" type="text/css" />
+
+	<title>Apple - Education - Mac, iPod, iPad, and iPhone for learning</title>
+	<meta name="omni_page" content="Education - Why Apple" />
+	<meta name="Category" content="markets" />
+	<meta name="Description" content="Apple products inspire creativity with features you can’t find anywhere else. And they’re easy to integrate into the classroom." />
+	<script src="http://images.apple.com/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+
+	
+<script src="http://images.apple.com/global/scripts/lib/event_mixins.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://images.apple.com/global/scripts/swap_view.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://images.apple.com/global/scripts/view_master_tracker.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	if (typeof(tracker) == 'undefined') {
+		tracker = false;
+	}
+
+	Event.onDOMReady(function() {
+		if (!tracker) {
+			tracker = new AC.ViewMaster.Tracker('click');
+		}
+	});
+</script>
+
+
+
+	
+
+<script src="http://images.apple.com/global/scripts/ac_media.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="http://images.apple.com/global/styles/ac_media.css" type="text/css" />
+
+
+
+	
+
+
+<script src="http://images.apple.com/global/scripts/page_scroller.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="http://images.apple.com/global/scripts/slyder.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	Event.onDOMReady(function() {
+		$$('div.slider').each(function(slyder) {
+			new Slyder(slyder);
+		});
+	})
+</script>
+<link rel="stylesheet" href="http://images.apple.com/education/styles/slyder.css" type="text/css" />
+
+	<script src="http://images.apple.com/education/scripts/swapview_height.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		Event.onDOMReady(function() {
+			var kick = new AC.ViewMaster.Viewer($$('#video-kick .inlinevideo-section'), 'video-kick', 'video-kick', { silentTriggers:true }),
+				teaching = $$('#video-teaching .inlinevideo-section'),
+				podcasting = new AC.ViewMaster.Viewer($$('#video-podcasting .inlinevideo-section'), 'video-podcasting', 'video-podcasting', { silentTriggers:true });
+
+			teaching = new AC.ViewMaster.Viewer(teaching, 'video-teaching', 'video-teaching', { silentTriggers:true, animationDuration:.3 }),
+			teaching.changeHeight = true;
+			teaching.setDelegate(ChangeHeight);
+			Event.Listener.listenForEvent(document.event, 'didFinishMovie', false, function(evt) {
+				var viewer = evt.event_data.data.viewMaster;
+				viewer.showPreviousSelection.bind(viewer)();
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="http://images.apple.com/global/styles/base.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/education/styles/education.css" type="text/css" />
+</head>
+<body id="why" class="education">
+	
+	<!--
+	Start of DoubleClick Floodlight Tag: Please do not remove
+	Activity name of this tag: Education: Why Apple?
+	URL of the webpage where the tag is expected to be placed: http://www.apple.com/education/why-apple/
+	This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+	Creation Date: 02/22/2011
+	-->
+	<script type="text/javascript">
+	var axel = Math.random() + "";
+	var a = axel * 10000000000000;
+	document.write('<iframe src="http://fls.doubleclick.net/activityi;src=1566767;type=educa834;cat=educa150;ord=' + a + '?" width="1" height="1" frameborder="0"></iframe>');
+	</script>
+	<noscript>
+	<iframe src="http://fls.doubleclick.net/activityi;src=1566767;type=educa834;cat=educa150;ord=1?" width="1" height="1" frameborder="0"></iframe>
+	</noscript>
+
+	<!-- End of DoubleClick Floodlight Tag: Please do not remove -->	
+	
+	<script type="text/javascript">
+	var searchSection = 'global';
+	var searchCountry = 'us';
+</script>
+<script src="http://images.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
+<div id="globalheader">
+	<!--googleoff: all-->
+	<ul id="globalnav">
+		<li id="gn-apple"><a href="/"><span>Apple</span></a></li>
+		<li id="gn-store"><a href="http://store.apple.com/"><span>Store</span></a></li>
+		<li id="gn-mac"><a href="/mac/"><span>Mac</span></a></li>
+		<li id="gn-ipod"><a href="/ipod/"><span>iPod</span></a></li>
+		<li id="gn-iphone"><a href="/iphone/"><span>iPhone</span></a></li>
+		<li id="gn-ipad"><a href="/ipad/"><span>iPad</span></a></li>
+		<li id="gn-itunes"><a href="/itunes/"><span>iTunes</span></a></li>
+		<li id="gn-support" class="gn-last"><a href="/support/"><span>Support</span></a></li>
+	</ul>
+	<!--googleon: all-->
+	<div id="globalsearch">
+		<form action="/search/" method="post" class="search" id="g-search"><div>
+			<label for="sp-searchtext"><input type="text" name="q" id="sp-searchtext" accesskey="s" /></label>
+		</div></form>
+		<div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
+		<div id="sp-results"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	AC.GlobalNav.Instance = new AC.GlobalNav();
+</script>
+
+	<div id="productheader">
+	<h2><a href="/education/"><img src="http://images.apple.com/education/images/product_title_20100409.png" alt="Apple in Education" width="237" height="29" /></a></h2>
+	<ul>
+		<li id="pn-why"><a href="/education/why-apple/">Why Apple?</a></li>
+		<li id="pn-mac"><a href="/education/mac/">Mac</a></li>
+		<li id="pn-ipad"><a href="/education/ipad/">iPad</a></li>
+		<li id="pn-ipodtouch-iphone"><a href="/education/ipodtouch-iphone/">iPod touch and iPhone</a></li>
+		<li id="pn-profiles"><a href="/education/profiles/">Profiles</a></li>
+		<li id="pn-resources"><a href="/education/resources/">Resources</a></li>
+
+
+		<li><a class="howtobuys" href="/education/how-to-buy/">How to buy Apple products for education.</a></li>
+
+	</ul>
+</div>
+
+	<div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+
+
+	
+
+
+
+
+<script type="text/javascript">
+/* RSID: */
+
+	var s_account="appleglobal,appleuseducation"
+
+</script>
+
+
+<script type="text/javascript" src="http://images.apple.com/metrics/scripts/s_code_h.js"></script>
+
+
+
+<script type="text/javascript">
+
+s.pageName=AC.Tracking.pageName()+" (us)";
+s.channel="www.us.education"
+
+
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+
+	
+	<script type="text/javascript">
+	   var hostProtocol = (("https:" == document.location.protocol) ? "https" : "http");
+	   document.write('<scr'+'ipt src="', hostProtocol+
+	   '://123.xg4ken.com/media/getpx.php?cid=19dae3d3-9356-4c63-880e-b0fa184e9cd4','" type="text/JavaScript"><\/scr'+'ipt>');
+	</script>
+	<script type="text/javascript">
+	   track('19dae3d3-9356-4c63-880e-b0fa184e9cd4');
+	   var params = new Array();
+	   params[0]='id=19dae3d3-9356-4c63-880e-b0fa184e9cd4';
+	   params[1]='type= Whyapple';
+	   params[2]='val=';
+	   params[3]='orderId=';
+	   params[4]='promoCode=';
+	   params[5]='valueCurrency=USD';
+	   k_trackevent(params,'123');
+	</script>
+	
+	<div id="main" class="content">
+		<div id="heronav">
+			<h1><img src="http://images.apple.com/education/why-apple/images/title20100409.png" width="398" height="46" alt="Learning with Apple." /></h1>
+			<p class="intro">Apple products inspire creativity and hands-on learning with features you won’t find anywhere else. And they’re easy to integrate into your curriculum. Once you do, you’ll see teaching — and learning — in a whole new way.</p>
+			<ul>
+				<li class="first-child"><div>
+					<a class="scrollToAnchor" href="#kick-start">
+						<span><img src="http://images.apple.com/education/why-apple/images/heronav_20101001.jpg" width="560" height="98" alt="" /></span>
+						<h4>Content Creation</h4>
+						<p>A range of easy-to-use tools that encourage creativity.</p>
+						<em class="more">Read more</em>
+					</a>
+				</div></li>
+				<li class="second-child"><div>
+					<a class="scrollToAnchor" href="#teaching">
+						<span><img src="http://images.apple.com/education/why-apple/images/heronav_20101001.jpg" width="560" height="98" alt="" /></span>
+						<h4>Apps</h4>
+						<p>There’s an app <br />for every subject and stage of learning.</p>
+						<em class="more">Read more</em>
+					</a>
+				</div></li>
+				<li class="third-child"><div>
+					<a class="scrollToAnchor" href="#podcasting">
+						<span><img src="http://images.apple.com/education/why-apple/images/heronav_20101001.jpg" width="560" height="98" alt="" /></span>
+						<h4>Podcasting</h4>
+						<p>Engage students <br />in ways the <br />printed page <br />can’t.</p>
+						<em class="more">Read more</em>
+					</a>
+				</div></li>
+				<li class="fourth-child last-child"><div>
+					<a class="scrollToAnchor" href="#itunes-u">
+						<span><img src="http://images.apple.com/education/why-apple/images/heronav_20101001.jpg" width="560" height="98" alt="" /></span>
+						<h4>iTunes U</h4>
+						<p>Free lectures, lessons, podcasts, and audiobooks.</p>
+						<em class="more">Read more</em>
+					</a>
+				</div></li>
+			</ul>
+		</div>
+		<script src="http://images.apple.com/education/scripts/heronav.js" type="text/javascript" charset="utf-8"></script>
+
+		<div class="section first-section grid2cola" id="kick-start">
+			<img class="flushright imac" src="http://images.apple.com/education/why-apple/images/imac_20110317.jpg" width="338" height="366" alt="" />
+			<div class="column first padded">
+				<h2><img src="http://images.apple.com/education/why-apple/images/title_kickstart_20100409.png" width="281" height="33" alt="Kick-start creativity." /></h2>
+				<p class="intro">Apple products offer easy-to-learn tools that encourage students to communicate their best thinking in compelling new ways.</p>
+				<h3>iLife brings student projects to life.</h3>
+				<p>Every Mac comes with iLife, a suite of software that lets you do amazing things with photos, movies, music, and more. With iPhoto, you can create multimedia slideshows or put together a field trip photo book, complete with text and maps. GarageBand turns the Mac into a full-fledged studio for recording podcasts, songs, and other audio. And with iMovie, you can make your own documentaries and  short films and edit them like a pro.  Whatever students can imagine, iLife can help them express it.</p>
+			</div>
+
+			<div id="video-kick" class="inlinevideo">
+				<div class="inlinevideo-section grid2cola">
+					<div class="column first">
+						<h3>iWork makes productivity more fun.</h3>
+						<p>Keynote lets you transform reports and essays into dynamic, animated presentations featuring photos, movies, even music. Use the stunning graphics in Numbers to take charts and spreadsheets to a new level. With Pages, you can start with a beautiful Apple-designed template, add your own text, then add photos from iPhoto to create professional-looking term papers and newsletters. It’s all part of iWork, a suite of productivity applications designed for the Mac.<sup>1</sup></p>
+						<h3>iWork for iPad.</h3>
+						<img class="right" src="http://images.apple.com/education/why-apple/images/iwork_ipad_20110302.jpg" width="140" height="122" alt="" />
+						<p>Completely redesigned for the responsive Multi-Touch iPad display, Pages, Keynote, and Numbers put the power of iWork at your fingertips.<sup>1</sup> So you can drag images and watch your text wrap around them in Pages. Use the smart onscreen keyboard to enter data in Numbers. Even show off Keynote slides with a flick of your finger. When you’ve finished your spreadsheet or presentation, print it out directly from iPad using AirPrint.<sup>2</sup></p>
+
+						<a class="video-kick" href="/education/profiles/escondido/includes/video-escondido-podcasting.html#video-escondido-podcasting">
+							<img class="left" src="http://images.apple.com/education/why-apple/images/life_video_20100409.jpg" width="270" height="176" alt="" />
+						</a>
+						<h3>iLife in action.</h3>
+						<p>At Central Elementary School, a group of fourth-grade students creates the school’s morning announcements each day using an iPod touch, an iMac, and GarageBand.</p>
+						<p><a href="/education/profiles/escondido/"><span>Read the full story about<br /></span><span class="nowrap more">Central Elementary School</span></a></p>
+					</div>
+					<div class="column last">
+						<div class="sidecar">
+							<span class="sidecar-top"></span>
+							<p class="subtitle">Tools to create the perfect project.</p>
+
+							<img class="right ilife" src="http://images.apple.com/education/why-apple/images/kickstart_ilife_20101116.jpg" width="58" height="53" alt="" />
+							<h4>iLife</h4>
+							<p>Included on every Mac, iLife helps you and your students create great multimedia projects together.</p>
+
+							<img class="right iwork" src="http://images.apple.com/education/why-apple/images/kickstart_iwork_20100409.jpg" width="59" height="52" alt="" />
+							<h4>iWork</h4>
+							<p>Make documents, spreadsheets, and presentations shine for both everyday assignments and advanced projects.</p>
+
+							<img class="right macosx" src="http://images.apple.com/education/why-apple/images/kickstart_macosx_20100409.jpg" width="58" height="57" alt="" />
+							<h4>Mac OS X Server</h4>
+							<p>Collaborate through your own wikis and blogs using Wiki Server in Mac OS X Server.</p>
+
+							<p><a class="more" href="/education/mac/">Learn more about creating on the Mac</a></p>
+							<span class="sidecar-bottom"></span>
+						</div><!--/sidecar-->
+					</div>
+				</div><!--/inlinevideo-section-->
+			</div><!--/video-imac-->
+		</div>
+
+		<div id="teaching" class="section">
+			<a href="#top" class="scrollToAnchor back-to-top">Back to top</a>
+			<div class="grid2col">
+				<img class="right" src="http://images.apple.com/education/why-apple/images/teaching_iphones_20101001.jpg" width="474" height="374" alt="Educational apps on iPhone" />
+				<div class="column first">
+					<h2><img src="http://images.apple.com/education/why-apple/images/title_teaching_20100409.gif" width="273" height="71" alt="Teaching students. One app at a time." /></h2>
+					<p class="intro">iPhone, iPod touch, and iPad apps are transforming the way teachers teach and students learn.</p>
+					<h3>There really is an app for that.</h3>
+					<p>Because they work on mobile devices, apps enable learning both inside and outside the classroom. And with thousands of apps on the App Store, you’re sure to find the perfect one. From math games to vocabulary flash cards to anatomy visualizers, there’s an app for every subject and every level of instruction — from preschool to higher education.</p>
+				</div>
+			</div>
+
+			<div id="video-teaching" class="inlinevideo">
+				<div class="inlinevideo-section grid2cola">
+					<div class="column first">
+						<h3>Students love apps.</h3>
+						<p>Apps help personalize instruction, address a variety of learning styles, and create highly interactive classrooms.  That not only makes for a more engaging learning environment, it also results in performance improvements across the board. And since most students are familiar with the Apple devices these apps are made for, they can start using them right away.</p>
+						<a class="video-teaching" href="/education/profiles/escondido/includes/video-escondido.html#video-escondido">
+							<img class="left teaching-thumb" src="http://images.apple.com/education/why-apple/images/action_video_20100409.jpg" width="272" height="177" alt="" />
+						</a>
+						<h3>Apps in action.</h3>
+						<p>At Central Elementary School in Escondido, California, a fourth-grade classroom using iPod touch has seen dramatic results. Every student’s reading score went up, and overall progress rates were two to three times those of other classrooms in the district.</p>
+						<p><a href="/education/profiles/escondido/"><span>Read the full story about<br/></span><span class="nowrap more">Central Elementary School</span></a></p>
+					</div>
+					<div class="column last">
+						<div class="sidecar">
+							<span class="sidecar-top"></span>
+							<p class="subtitle">Apps and Apple essentials.</p>
+							<img class="right ipod" src="http://images.apple.com/education/why-apple/images/teaching_ipodtouch_20110317.jpg" width="26" height="56" alt="" />
+							<h4>iPod touch</h4>
+							<p>The pocket computer with access to thousands of educational apps.
+								<a class="more" href="/education/ipodtouch-iphone/">Learn more about iPod touch</a></p>
+							<img class="right ipad" src="http://images.apple.com/education/why-apple/images/teaching_ipad_20110317.jpg" width="46" height="65" alt="" />
+							<h4>iPad</h4>
+							<p>A whole new way for students to use apps, read books, do research, and create projects.
+							<a class="more" href="/education/ipad/">Learn more about iPad</a></p>
+							<img class="right appstore" src="http://images.apple.com/education/why-apple/images/teaching_appstore_20100409.jpg" width="46" height="62" alt="" />
+							<h4>Apps for learning</h4>
+							<p>Browse iPad, iPhone, and iPod touch apps that are ideal for teaching and learning.<br/>
+							<a class="more" href="/education/apps/">View apps for learning</a></p>
+							<p><a href="/itunes/education/" class="more volume">Learn about the App Store Volume<br/>Purchase Program</a></p>
+							<span class="sidecar-bottom"></span>
+						</div>
+					</div>
+				</div><!--/inline-video-->
+			</div><!--/video-teaching-->
+		</div>
+
+		<div class="content-slider">
+	<div class="header">
+		<h2>Featured apps</h2>
+		<a class="more" href="/education/apps/">See all Apps for Education</a>
+	</div><!--/header-->
+	<div id="apps-slider" class="slider">
+		<div class="mask">
+			<div class="container">
+				<div class="action first"><a class="block" href="http://itunes.apple.com/us/app/byki-spanish/id293154351?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_Byki_Spanish20100409.jpg" alt="" />
+					<h3>Byki Spanish</h3>
+					<p>Lock Spanish words <br />and phrases into your memory so you can recall and remember them perfectly.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/convert-the-unit-calculator/id325758140?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_Convert_Unit_Calc20100409.jpg" alt="" />
+					<h3>Convert ~ the unit calculator</h3>
+					<p>This unit converter and calculator was designed with simplicity and usability in mind.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/declaration-for-iphone-ipod/id289320718?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_Declaration20100409.jpg" alt="" />
+					<h3>Declaration for iPhone and iPod</h3>
+					<p>America’s founding documents, Presidents, states, and flags in your pocket.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/flashcard-champion-basic-math/id346684971?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_Flashcard_Champion20100409.jpg" alt="" />
+					<h3>Flashcard Champion Basic Math</h3>
+					<p>A fun, exciting way <br />to master simple arithmetic. Perfect for kids ages 4 to 11.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/kaplan-toefl-vocabulary-flashcards/id310112006?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_Kaplan_TOEFL20100409.jpg" alt="" />
+					<h3>Kaplan TOEFL Vocabulary Flashcards</h3>
+					<p>This app contains more than 350 words necessary for TOEFL test success.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+
+				<div class="action first"><a class="block" href="http://itunes.apple.com/us/app/love-art-national-gallery/id314566159?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_National_Gallery_London20100409.jpg" alt="" />
+					<h3>Love Art: National Gallery, London</h3>
+					<p>Browse one of the greatest collections of Western European paintings.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/math-cards/id303293933?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_MathCards20100409.jpg" alt="" />
+					<h3>Math Cards</h3>
+					<p>Improve math skills with built-in lessons on arithmetic, percentage, and letter grades.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/mitosis/id348184626?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_MItosis20100409.jpg" alt="" />
+					<h3>Mitosis</h3>
+					<p>A fun, interactive learning experience about cell division and everything that happens along the way.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/molecules/id284943090?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_Molecules20100409.jpg" alt="" />
+					<h3>Molecules</h3>
+					<p>View 3D renderings of molecules and rotate, zoom, or pan them using your fingers.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/multiplication/id304569626?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_Multiplication20100409.jpg" alt="" />
+					<h3>Multiplication</h3>
+					<p>Battle to see who reigns supreme as the ultimate math whiz.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+
+				<div class="action first"><a class="block" href="http://itunes.apple.com/us/app/netters-anatomy-flash-cards/id282143480?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_NettersAnatomy20100409.jpg" alt="" />
+					<h3>Netter’s Anatomy Flash Cards</h3>
+					<p>The best-selling anatomy classic now <br />fits in your pocket.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/pocket-english-esl-beginner/id316487889?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_Pocket_English20100409.jpg" alt="" />
+					<h3>Pocket English (ESL)</h3>
+					<p>Learn English quickly with this state-of-the-art pocket language lab for non-native speakers.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/world-atlas-and-fact-book/id305214025?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_World_Atlas_Fact_Book20100409.jpg" alt="" />
+					<h3>World Atlas and Fact&nbsp;Book</h3>
+					<p>An easy, interactive world atlas and fact book for geography <br />and history.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/word-magic/id293630633?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_WordMagic20100409.jpg" alt="" />
+					<h3>Word Magic</h3>
+					<p>Kids ages 3 to 8 can learn to spell new words with this fun app created by parents.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a class="block" href="http://itunes.apple.com/us/app/the-world-factbook-2010/id310064645?mt=8">
+					<img src="http://images.apple.com/education/includes/apps-slider/images/apps_slider_World_Factbook20100409.jpg" alt="" />
+					<h3>The World Factbook 2010</h3>
+					<p>Read up-to-date, organized world data for more than 250 countries.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+			</div><!--/container-->
+		</div><!--/mask-->
+	</div><!--/slider-->
+</div><!--/content-slider-->
+
+
+		<div id="podcasting" class="section">
+			<a href="#top" class="scrollToAnchor back-to-top">Back to top</a>
+			<div class="grid2col">
+				<img class="right flushright" src="http://images.apple.com/education/why-apple/images/mic_macbookpro_20110302.jpg" width="536" height="319" alt="" />
+				<div class="column first">
+					<h2><img src="http://images.apple.com/education/why-apple/images/title_podcasting_20100409.gif" width="508" height="71" alt="Extend your classroom — and your curriculum — with podcasts." /></h2>
+					<p class="intro">From lectures and slideshows to gallery tours and interviews, podcasting engages students in ways the printed page can’t.</p>
+					<h3>Podcasts take the “room” out of “classroom.”</h3>
+					<p>Podcasts give students more freedom to learn — wherever and whenever they want. Students can play podcasts on any computer, iPod, iPad, or iPhone. So when they’re in class, they can spend more time participating in meaningful discussions and working on team projects.</p>
+				</div>
+			</div>
+			<div id="video-podcasting" class="inlinevideo">
+				<div class="inlinevideo-section grid2cola">
+					<div class="column first">
+						<h3>Creating podcasts on the Mac.</h3>
+						<p>GarageBand — included on every Mac — makes it simple to create podcasts. And Podcast Producer in Mac OS X Server gives you an end-to-end solution for capturing, encoding, publishing, and distributing high-quality podcasts such as university lectures, videos, and presentations.
+							<a class="more" href="/education/podcasting/">Learn more about creating podcasts</a></p>
+						<h3>Distributing podcasts with iTunes U.</h3>
+						<p>As part of a participating institution, you can distribute podcasts via iTunes U. iTunes U brings the power of the iTunes Store to education, making it simple to share information with students, faculty, or anyone who wants to learn what you have to teach. iTunes U gives a home to all the digital content you create or curate — content that’s easy to download and enjoy on any computer, iPod, iPad, or iPhone. <a class="more" href="/education/itunes-u/">Learn more about distributing content on iTunes U</a></p>
+						<a class="video-podcasting" href="/education/profiles/ohio-state/includes/video-ohiostate-podcasting.html#video-ohiostate-podcasting">
+							<img class="left" src="http://images.apple.com/education/why-apple/images/podcast_video_20100409.jpg" width="271" height="176" alt="" />
+						</a>
+						<h3>Podcasting in action.</h3>
+						<p>Want to know more about how podcasting can extend the learning experience? Let Ohio State University’s Dr. Sorabh Khandelwal explain how his podcasts have given medical students more opportunities for engaged learning.</p>
+						<p><a href="/education/profiles/ohio-state/"><span>Read the full story about<br/></span><span class="more">Ohio State</span></a></p>
+					</div>
+					<div class="column last">
+						<div class="sidecar">
+							<span class="sidecar-top"></span>
+							<p class="subtitle">Products for podcasting.</p>
+							<img class="right garage-band" src="http://images.apple.com/education/why-apple/images/podcasting_garagebad_20100409.jpg" width="48" height="50" alt="" />
+							<h4>iLife</h4>
+							<p>GarageBand — part of the iLife suite included on every Mac — lets you create podcasts with ease.</p>
+							<img class="right macosx" src="http://images.apple.com/education/why-apple/images/podcasting_icon_20100409.jpg" width="45" height="54" alt="" />
+							<h4>Mac OS X Server</h4>
+							<p>Podcast Producer in Mac OS X Server is an easy solution for capturing, encoding, publishing, and distributing podcasts. </p>
+							<p><a class="more" href="/education/mac/">Learn more about the Mac and Mac software</a></p>
+							<span class="sidecar-bottom"></span>
+						</div>
+					</div>
+				</div><!--/inlinevideo-section-->
+			</div><!--/video-podcasting-->
+		</div>
+		
+		<div id="itunes-u" class="section">
+			<a href="#top" class="scrollToAnchor back-to-top">Back to top</a>
+			<div class="grid2cola">
+				<div class="column first">
+					<img class="right" src="http://images.apple.com/education/why-apple/images/oxford_20110317.jpg" width="477" height="339" alt="" />
+					<h2><img src="http://images.apple.com/education/why-apple/images/title_itunesu_20100409.gif" width="330" height="109" alt="iTunes U. Unlimited information. Accessible anytime." /></h2>
+					<p class="intro">Find lectures, lessons, books, and podcasts and download them for free. iTunes U is available to everyone — students, teachers, and lifelong learners.</p>
+					<p class="sublink"><a class="more" href="http://deimos3.apple.com/indigo/main/main.xml">Go to iTunes U</a></p>
+					<h3>A world of education.</h3>
+					<p>Apple’s iTunes U is home to more than 350,000 free lectures, videos, readings, and podcasts from learning institutions all over the world. Universities such as Yale, Stanford, UC Berkeley, Oxford, Cambridge, MIT, Beijing Open University and The University of Tokyo, museums including MoMa, and broadcasters such as PBS offer free content on iTunes U. Content ranges from lectures and presentations to books and course materials. Students can download content from iTunes U, then listen to it anywhere on a Mac, PC, or mobile device such as iPod, iPad, or iPhone. </p>
+					<h3>Download knowledge.</h3>
+					<p>Accessing iTunes U is simple.  Just tap More in the iTunes app on iPhone or iPod touch, or tap the iTunes U icon on iPad. On a Mac, click iTunes U in the iTunes Store.  From there you can browse and download content directly to whatever device you’re using.  And since your students are probably familiar with iTunes already,  it’s easy for them to find what they’re looking for on iTunes U.  You can assign content from iTunes U just as you would articles and books. Students can download iTunes U audio and video offerings one at a time, or subscribe to entire courses and have new items download automatically as soon as they become available.
+					<br /><a class="more" href="http://www.apple.com/education/itunes-u/">Learn more about iTunes U</a></p>
+				</div>
+				<div class="column last">
+					<div class="sidecar">
+						<span class="sidecar-top"></span>
+						<p class="subtitle">Essentials for enjoying iTunes U.</p>
+						<img class="right ipod" src="http://images.apple.com/education/why-apple/images/itunesu_ipodtouch_20110317.jpg" width="26" height="56" alt="" />
+						<h4>iPod touch</h4>
+						<p>With direct wireless access to iTunes U, this pocket computer is great for on-the-go learning.
+						<a class="more" href="/education/ipodtouch-iphone/">Learn more about iPod touch</a></p>
+						<img class="right ipad" src="http://images.apple.com/education/why-apple/images/itunesu_ipad_20110302.jpg" width="45" height="65" alt="" />
+						<h4>iPad</h4>
+						<p>Perfect for researching on the web, watching video, and accessing iTunes U content.
+						<a class="more" href="/education/ipad/">Learn more about iPad</a></p>
+						<img class="right itunes" src="http://images.apple.com/education/why-apple/images/itunesu_icon_20110302.jpg" width="44" height="54" alt="" />
+						<h4>iTunes</h4>
+						<p>This application organizes and plays audio and video and provides access to iTunes U content.
+						<a class="more" href="/itunes/download/">Download iTunes free</a></p>
+						<span class="sidecar-bottom"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-slider">
+	<div class="header">
+		<h2>Featured on iTunes U</h2>
+		<a class="more" href="http://deimos3.apple.com/indigo/main/main.xml">Go to iTunes U</a>
+	</div><!--/header-->
+	<div id="itunes-slider" class="slider">
+		<div class="mask">
+			<div class="container">
+				<div class="action first"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/virginia-public.2801540146.02801540153">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_backStory20100409.jpg" alt="" />
+					<h3>BackStory</h3>
+					<h4>University of Virginia</h4>
+					<p>This public radio program brings a historical perspective <br />to today’s events.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/itunes.open.ac.uk.2230065684.02230474755">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_openuniv20100409.jpg" alt="" />
+					<h3>Bon départ: <br />Beginner’s French</h3>
+					<h4>Open University</h4>
+					<p>Learn French basics, including short conversations and pronunciation.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/cornell-public.1611867262.01724128435">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_cornell20100409.jpg" alt="" />
+					<h3>International</h3>
+					<h4>Cornell University</h4>
+					<p>Global topics range from foreign policy to protecting the planet and feeding its inhabitants.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/vdoe.brpbs.org.1938976776.01938976778">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_jamestown20100409.jpg" alt="" />
+					<h3>Jamestown: <br />A Fruitful Soil</h3>
+					<h4>Virginia Dept. of Ed.</h4>
+					<p>Commemorating the 400th anniversary of the founding of Jamestown.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+					<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/mit.edu.1298396162.01298396166">
+						<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_mit_open_courseware20100409.jpg" alt="" />
+						<h3>Introduction to Psychology</h3>
+						<h4>MIT</h4>
+						<p>Human behavior topics range from how we see to why we fall in love.</p>
+						<em class="more">View in iTunes</em>
+					</a></div>
+
+				<div class="action first"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/usf.edu.3243669986.03243669991">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_USF_Lit2_go20100409.jpg" alt="" />
+					<h3>The Adventures of Huckleberry Finn</h3>
+					<h4>U of South Florida</h4>
+					<p>A first-person narrative told by the title character, Huck Finn.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=386017685">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_music_the_brain20100409.jpg" alt="" />
+					<h3>Music and the Brain</h3>
+					<h4>Library of Congress</h4>
+					<p>Lectures and symposia on the intersection of cognitive neuroscience and music.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/cassiopeiaproject.com.1656427379.01656427385">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_cassiopeia20100409.jpg" alt="" />
+					<h3>Space</h3>
+					<h4>Cassiopeia Project</h4>
+					<p>Take a tour through the solar system and find out when our galaxy began.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/loc.gov.2587243241.02587243246">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_library_of_congress20100409.jpg" alt="" />
+					<h3>Origins of American Animation</h3>
+					<h4>Library of Congress</h4>
+					<p>This collection includes claymation, puppets, cut-outs, and pen drawings.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/lifeonterra.com.1417336253.01480401521">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_terra20100409.jpg" alt="" />
+					<h3>The Nature of <br />Our World</h3>
+					<h4>TERRA</h4>
+					<p>A weekly podcast that explores the melting pot of nature and culture.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+
+				<div class="action first"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/poynter.org.1578858944.01578858948">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_writing_tools20100409.jpg" alt="" />
+					<h3>Roy’s Writing Tools</h3>
+					<h4>The Poynter Institute’s Roy Peter Clark</h4>
+					<p>Author Roy Clark offers 50 essential strategies for every writer.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewiTunesUCollection?id=385667915#">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_stanford_lively_arts20100409.jpg" alt="" />
+					<h3>Stanford Lively Arts</h3>
+					<h4>Stanford University</h4>
+					<p>Enjoy cultural events with a focus on innovation and risk-taking.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/roh.org.uk.2649956889.03316615990">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_royal_opera_house20100409.jpg" alt="" />
+					<h3>Swan Lake in Rehearsal</h3>
+					<h4>Royal Opera House</h4>
+					<p>Anthony Dowell rehearses the Act IV <br />pas de trois.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/tamu-public.1449877907.01449877921">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_wired_study_tips20100409.jpg" alt="" />
+					<h3>Wired Study Tips</h3>
+					<h4>Texas A&amp;M University</h4>
+					<p>Tips for college and college-bound students on test taking and maximizing memory.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+				<div class="action"><a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/yale.edu.1326498103.01326498112">
+					<img src="http://images.apple.com/education/includes/itunes-slider/images/itunes_slider_yale20100409.jpg" alt="" />
+					<h3>Yale Science</h3>
+					<h4>Yale University</h4>
+					<p>Topics discussed range from evolution to processes of the universe.</p>
+					<em class="more">View in iTunes</em>
+				</a></div>
+			</div><!--/container-->
+		</div><!--/mask-->
+	</div><!--/slider-->
+</div><!--/content-slider-->
+
+
+		<div id="bottom-tiles" class="section">
+			<ul class="bottom-tile">
+				<li class="bottom-tile-ipad">
+					<a class="bottom-tile" href="/education/ipad/">
+						<img src="http://images.apple.com/education/why-apple/images/bottom_nav_ipad_20110302.png" width="82" height="115" alt="" />
+						<h3>iPad in Education</h3>
+						<span class="more" href="/education/ipad/">Learn more</span>
+					</a>
+				</li>
+				<li class="bottom-tile-imac">
+					<a class="bottom-tile" href="/education/mac/">
+						<img src="http://images.apple.com/education/why-apple/images/bottom_nav_imac_20110317.png" width="153" height="135" alt="" />
+						<h3>Mac in Education</h3>
+						<span class="more" href="/education/mac/">Learn more</span>
+					</a>
+				</li>
+				<li class="last bottom-tile-iphone">
+					<a class="bottom-tile" href="/education/ipodtouch-iphone/">
+						<img src="http://images.apple.com/education/why-apple/images/bottom_nav_iphone_20110317.png" width="86" height="105" alt="" />
+						<h3>iPod touch + iPhone in Education</h3>
+						<span class="more" href="/education/ipodtouch-iphone/">Learn more</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</div><!--/main-->
+	<div id="promofooter">
+	<ul id="promos">
+		<li class="promo">
+	<h4><a href="/education/itunes-u/"><img src="http://images.apple.com/promos/2010/edu_itunes_u/header_20100409.png" alt="iTunes U." width="214" height="17" /></a></h4>
+	<p><a href="/education/itunes-u/">An innovative way to distribute lectures, lessons, podcasts, and more.</a></p>
+	<a class="image" href="/education/itunes-u/"><img src="http://images.apple.com/promos/2010/edu_itunes_u/image_20100409.png" alt="" width="244" height="180" /></a>
+</li>
+
+		<li class="promo">
+	<h4><a href="/education/special-education/"><img src="http://images.apple.com/promos/2010/edu_special_education/header_20100409.png" alt="Special Education." width="214" height="17" /></a></h4>
+	<p><a href="/education/special-education/">Learn how Apple provides universal access for all.</a></p>
+	<a class="image" href="/education/special-education/"><img src="http://images.apple.com/promos/2010/edu_special_education/image_20100409.png" alt="" width="244" height="180" /></a>
+</li>
+
+		<li class="promo">
+	<h4><a href="/retail/fieldtrip/"><img src="http://images.apple.com/promos/2010/edu_field_trip/header_20100921.png" alt="Field Trip to the Apple Store." width="211" height="17" /></a></h4>
+	<p><a style="padding-right: 9px;" href="http://www.apple.com/retail/fieldtrip/">Bring students to the Apple Store for an unforgettable learning experience.</a></p>
+	<a class="image" href="/retail/fieldtrip/"><img src="http://images.apple.com/promos/2010/edu_field_trip/image_20100921.png" alt="" width="244" height="180" /></a>
+</li>
+
+		<li class="promo buynow">
+	<h4><a href="/education/how-to-buy/"><img src="http://images.apple.com/education/images/promo_howtobuyheader20081208.png" alt="Buy Now" width="217" height="17" /><img src="http://images.apple.com/education/images/btn_howtobuy20081208.png" class="howtobutton"  width="86" height="25" alt="How to Buy" /></a></h4>
+	<p class="static">It’s easy to buy Apple<br />products that are perfect for education.</p>
+	<ul class="howtobuy">
+		<li>Shop the <a href="/education/go/store/">Apple Store for Education</a>.</li>
+		<li>Find an <a href="http://education.apple.com/locate/education/">Authorized Campus Store</a>.</li>
+		<li>Find an <a href="/retail/">Apple Retail Store</a>.</li>
+		<li>Call 1-800-800-2775.</li>
+	</ul>
+</li>
+
+	</ul>
+</div>
+
+	<ol class="sosumi">
+		<li>iWork is sold separately.</li>
+		<li>Requires an AirPrint-enabled printer.</li>
+	</ol>
+	<p class="sosumi">Some applications are not available in all areas. Application availability and pricing are subject to change.</p>
+
+	<div id="globalfooter">
+		<div id="breadory">
+			<ol id="breadcrumbs">
+				<li class="home"><a href="/">Home</a></li>
+				<li><a href="/education/">Education</a></li>
+				<li>Why Apple</li>
+			</ol><!--/breadcrumbs-->
+		</div>
+		<p class="gf-buy">Shop the <a href="/store/">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="/retail/">Apple Retail Store</a>, or find a <a href="/buy/">reseller</a>.</p>
+
+<ul class="gf-links piped">
+	<li><a href="/about/" class="first">Apple Info</a></li>
+	<li><a href="/sitemap/">Site Map</a></li>
+	<li><a href="/hotnews/">Hot News</a></li>
+	<li><a href="/rss/">RSS Feeds</a></li>
+	<li><a href="/contact/" class="contact_us">Contact Us</a></li>
+	<li><a href="/choose-your-country/" class="choose"><img src="http://images.apple.com/global/elements/flags/22x22/usa.png" alt="Choose your country or region" width="22" height="22" /></a></li>
+</ul>
+
+<div class="gf-sosumi">
+	<p>Copyright © 2011 Apple Inc. All rights reserved.</p>
+	<ul class="piped">
+		<li><a href="/legal/terms/site.html" class="first">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy Policy</a></li>
+	</ul>
+</div>
+
+	</div><!--/globalfooter-->
+</body>
+</html>

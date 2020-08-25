@@ -1,0 +1,595 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0064)http://web.archive.org/web/20090317223853/http://www.pikmin.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="dj_khtml dj_safari"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./old_nintendo_pikmin_files/analytics.js(1).download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app103.us.archive.org';v.server_ms=844;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./old_nintendo_pikmin_files/playback.bundle.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./old_nintendo_pikmin_files/wombat.js.download" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.pikmin.com/","20090317223853","http://web.archive.org/web/","web","/_static/",
+	      "1237329533","www.pikmin.com");
+</script>
+<link rel="stylesheet" type="text/css" href="./old_nintendo_pikmin_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./old_nintendo_pikmin_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+      <title>New Play Control! Pikmin</title>
+
+   <link href="./old_nintendo_pikmin_files/reset.css" rel="stylesheet" type="text/css">
+   <link href="./old_nintendo_pikmin_files/main.css" rel="stylesheet" type="text/css">
+   <link href="./old_nintendo_pikmin_files/global_navigation.css" rel="stylesheet" type="text/css">
+   <link href="./old_nintendo_pikmin_files/global_footer.css" rel="stylesheet" type="text/css">
+   
+   <!--[if IE 6]>
+      <link href="./css/main_ie_additions.css" rel="stylesheet" type="text/css" />
+      <link href="./css/global_navigation_ie_additions.css" rel="stylesheet" type="text/css" />
+      <link href="./css/global_footer_ie_additions.css" rel="stylesheet" type="text/css" />
+   <![endif]-->
+   
+   <script djconfig="isDebug: true, parseOnLoad: true" src="./old_nintendo_pikmin_files/dojo.js.download" type="text/javascript"></script><!-- this is the code causing the problem -->
+   <script src="./old_nintendo_pikmin_files/mojo.js.download" type="text/javascript"></script>
+   <script src="./old_nintendo_pikmin_files/application.js.download" type="text/javascript"></script>
+   <script src="./old_nintendo_pikmin_files/mootools.v1.11.js.download" type="text/javascript"></script>
+   <script src="./old_nintendo_pikmin_files/noa.config" type="text/javascript"></script>
+   <script language="javascript" type="text/javascript" src="./old_nintendo_pikmin_files/flash_change.js.download"></script>
+   
+<meta name="shimejiBrowserExtensionId" content="gohjpllcolmccldfdggmamodembldgpc" data-version="1.6.3"><style type="text/css">
+@charset "UTF-8";
+/*!
+ * jQuery contextMenu - Plugin for simple contextMenu handling
+ *
+ * Version: v2.5.0
+ *
+ * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://swisnl.github.io/jQuery-contextMenu/
+ *
+ * Copyright (c) 2011-2017 SWIS BV and contributors
+ *
+ * Licensed under
+ *   MIT License http://www.opensource.org/licenses/mit-license
+ *
+ * Date: 2017-05-25T11:30:28.663Z
+ */
+@-webkit-keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+@-o-keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+         -o-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+         -o-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+@keyframes cm-spin {
+  0% {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+         -o-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) rotate(359deg);
+         -o-transform: translateY(-50%) rotate(359deg);
+            transform: translateY(-50%) rotate(359deg);
+  }
+}
+
+@font-face {
+  font-family: "context-menu-icons";
+  font-style: normal;
+  font-weight: normal;
+
+  src: url("font/context-menu-icons.eot?4yg1f");
+  src: url("font/context-menu-icons.eot?4yg1f#iefix") format("embedded-opentype"), url("font/context-menu-icons.woff2?4yg1f") format("woff2"), url("font/context-menu-icons.woff?4yg1f") format("woff"), url("font/context-menu-icons.ttf?4yg1f") format("truetype");
+}
+
+.context-menu-icon-add:before {
+  content: "EA01";
+}
+
+.context-menu-icon-copy:before {
+  content: "EA02";
+}
+
+.context-menu-icon-cut:before {
+  content: "EA03";
+}
+
+.context-menu-icon-delete:before {
+  content: "EA04";
+}
+
+.context-menu-icon-edit:before {
+  content: "EA05";
+}
+
+.context-menu-icon-loading:before {
+  content: "EA06";
+}
+
+.context-menu-icon-paste:before {
+  content: "EA07";
+}
+
+.context-menu-icon-quit:before {
+  content: "EA08";
+}
+
+.context-menu-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em;
+  font-family: "context-menu-icons";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.context-menu-icon.context-menu-hover:before {
+  color: #fff;
+}
+
+.context-menu-icon.context-menu-disabled::before {
+  color: #bbb;
+}
+
+.context-menu-icon.context-menu-icon-loading:before {
+  -webkit-animation: cm-spin 2s infinite;
+       -o-animation: cm-spin 2s infinite;
+          animation: cm-spin 2s infinite;
+}
+
+.context-menu-icon.context-menu-icon--fa {
+  display: list-item;
+  font-family: inherit;
+}
+.context-menu-icon.context-menu-icon--fa::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em;
+  font-family: FontAwesome;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-hover:before {
+  color: #fff;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-disabled::before {
+  color: #bbb;
+}
+
+.context-menu-list {
+  position: absolute;
+  display: inline-block;
+  min-width: 13em;
+  max-width: 26em;
+  padding: .25em 0;
+  margin: .3em;
+  font-family: inherit;
+  font-size: inherit;
+  list-style-type: none;
+  background: #fff;
+  border: 1px solid #bebebe;
+  border-radius: .2em;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.context-menu-item {
+  position: relative;
+  padding: .2em 2em;
+  color: #2f2f2f;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #fff;
+}
+
+.context-menu-separator {
+  padding: 0;
+  margin: .35em 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.context-menu-item > label > input,
+.context-menu-item > label > textarea {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+.context-menu-item.context-menu-hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2980b9;
+}
+
+.context-menu-item.context-menu-disabled {
+  color: #bbb;
+  cursor: default;
+  background-color: #fff;
+}
+
+.context-menu-input.context-menu-hover {
+  color: #2f2f2f;
+  cursor: default;
+}
+
+.context-menu-submenu:after {
+  position: absolute;
+  top: 50%;
+  right: .5em;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  content: '';
+  border-color: transparent transparent transparent #2f2f2f;
+  border-style: solid;
+  border-width: .25em 0 .25em .25em;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+/**
+ * Inputs
+ */
+.context-menu-item.context-menu-input {
+  padding: .3em .6em;
+}
+
+/* vertically align inside labels */
+.context-menu-input > label > * {
+  vertical-align: top;
+}
+
+/* position checkboxes and radios as icons */
+.context-menu-input > label > input[type="checkbox"],
+.context-menu-input > label > input[type="radio"] {
+  position: relative;
+  top: .12em;
+  margin-right: .4em;
+}
+
+.context-menu-input > label {
+  margin: 0;
+}
+
+.context-menu-input > label,
+.context-menu-input > label > input[type="text"],
+.context-menu-input > label > textarea,
+.context-menu-input > label > select {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.context-menu-input > label > textarea {
+  height: 7em;
+}
+
+.context-menu-item > .context-menu-list {
+  top: .3em;
+  /* re-positioned by js */
+  right: -.3em;
+  display: none;
+}
+
+.context-menu-item.context-menu-visible > .context-menu-list {
+  display: block;
+}
+
+.context-menu-accesskey {
+  text-decoration: underline;
+}
+</style><style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.context-menu-list {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 14px;
+  text-align: left;
+  font-weight: normal;
+  width: 200px;
+}
+.context-menu-item {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+.contextmenu-item-custom.contextmenu-item-custom__accent:not(:hover) {
+  background-color: #f8ffeb;
+}
+.contextmenu-item-custom.contextmenu-item-custom__success:not(:hover) {
+  background-color: #eeffcd;
+}
+</style></head><style id="stylish-4" class="stylish" type="text/css">.pr_hd_wrapper {
+    margin: 0 auto;
+    padding: 42px 0 0;
+    width: 1000px;
+}
+/* i really want this to be global */</style>
+
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="./old_nintendo_pikmin_files/donate.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(625,27,25,2,"web","http://www.pikmin.com/","20090317223853",1996,"/_static/",["/_static/css/banner-styles.css?v=_99BHQfY","/_static/css/iconochive.css?v=qtvMKcIJ"]);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+   <div id="container" align="center">
+   
+   <h1 class="propertyName"><a href="http://web.archive.org/web/20090317223853/http://nintendo.com/">Nintendo of America</a></h1>
+   
+    <div id="globalNavigation">
+
+		<ul id="primaryNav">
+			<li class="major wii"><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/wii">Wii</a></li>
+			<li class="major ds"><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/ds">Nintendo DS</a></li>
+			<li class="major games"><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/games">Games</a></li>
+			<li class="major club"><a href="http://web.archive.org/web/20090317223853/https://club.nintendo.com/">Club Nintendo</a></li>
+			<li class="major support"><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/consumer">Support</a></li>
+		</ul>
+
+      <form method="post" id="globalSearch" action="http://web.archive.org/web/20090317223853/http://nintendo.com/search" name="globalSearch">
+         <label for="globalSearchKeyword" class="overlabel" style="display: block;">What are you looking for?</label> <input type="text" value="" name="keyword" id="globalSearchKeyword"> <input type="image" value="Search" src="./old_nintendo_pikmin_files/search-btn.png" class="submit">
+      </form>
+
+      <ul id="legalLinks">
+   		<li><a class="level1" href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/consumer/manuals/healthsafety.jsp">Health &amp; Safety Precautions</a></li>
+   		<li><a class="level1" href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/privacy">Privacy Policy</a></li>
+   	</ul><!-- /legalLinks -->
+   	
+      <div id="breadcrumb">
+         <p>Current Location:</p>
+
+         <ul>
+            <li class="first"><a href="http://web.archive.org/web/20090317223853/http://nintendo.com/">Nintendo.com</a></li>
+
+            <li class="last"><a href="http://web.archive.org/web/20090317223853/http://www.pikmin.com/">Wii</a></li>
+
+         </ul>
+      </div>
+   </div>
+   
+   <div id="frameMiddle">
+   <div id="mainContentContainer">
+      <!-- CUSTOM CONTENT GOES HERE -->
+<script language="javascript" type="text/javascript">
+if (getFlashPlayerVersion() < 8) {
+document.write('<div align = "center"><table width="481" height="201" align="center"><tr><td><img src="images/00/00-Pikmin_00.jpg" border="0" usemap="#Map"/></tr></td></table></div>');
+document.write('<map name="Map" id="Map"><map name="Map" id="Map"><area shape="poly" coords="19,390,43,384,168,384,186,389,194,397,198,408,196,421,192,429,183,435,168,436,26,435,18,433" href="index_1.html" alt="Gameplay basics"/><area shape="rect" coords="28,458,199,515" href="pikmin/index_1.html" alt="Meet the Pikmin" /><area shape="rect" coords="210,457,376,515" href="story/index_1.html" alt="Story" /><area shape="rect" coords="389,457,557,516" href="issyo/index_1.html" alt="How to Play" /><area shape="rect" coords="570,458,739,515" href="stage/index_1.html" alt="The Planet" /><area shape="rect" coords="130,565,229,602" href="http://web.archive.org/web/20090317223853/https://club.nintendo.com/home.do" alt="Sign-up for our E-mail Newsletters" /><area shape="rect" coords="228,565,321,602" href="http://web.archive.org/web/20090317223853/https://club.nintendo.com/home.do" alt="Join Club Nintendo!" /></map>');
+
+} else {
+document.write(
+'<div id="flashContainer" align = "center">' ); 
+setFlash('7','swf/preloader.swf?file_num=00','768','663','#F1F1F1','img/fla_test.jpg','ＷｉｉPikman','768','630','0'); 
+document.write('</div>');
+}
+</script>
+
+<noscript>
+<div id="header">
+<img src="/web/20090317223853im_/http://www.pikmin.com/img/wii_logo.jpg" alt="" width="274" height="36" border="0" usemap="#Map_wiilink" class="f_right">
+<a href="/web/20090317223853/http://www.pikmin.com/index.html"><img src="/web/20090317223853im_/http://www.pikmin.com/img/ninten_logo.jpg" width="63" height="16" class="ninten_logo"></a>
+</div>
+<div class="clear"></div>
+<div>
+<table id="HTML_content" width="768" height="656" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="5">
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_01.jpg" width="768" height="382" alt="New Play Control! Pikmin™"></td>
+  </tr>
+	<tr>
+		<td colspan="5">
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_02.jpg" alt="Gameplay Basics" width="768" height="65" border="0" usemap="#GamePlayBasics"></td>
+  </tr>
+	<tr>
+		<td>
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_03.jpg" width="210" height="74" alt=""></td>
+<td colspan="2">
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_04.jpg" width="178" height="74" alt=""></td>
+<td>
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_05.jpg" width="178" height="74" alt=""></td>
+<td>
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_06.jpg" width="202" height="74" alt=""></td>
+  </tr>
+	<tr>
+		<td colspan="2">
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_07.jpg" width="328" height="42" alt=""></td>
+<td colspan="3" rowspan="2">
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_08.jpg" width="440" height="99" alt="Release Date:March 9, 2009, Genre: Real-Time Strategy    This game is not compatible with the Nintendo GameCube Controller."></td>
+  </tr>
+	<tr>
+		<td colspan="2">
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_09.jpg" width="328" height="57" alt="Buy It Now   Sign-Up for our E-mail Newsletters  Join Cub Nintendo!"></td>
+  </tr>
+	<tr>
+		<td colspan="5">
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/00-Pikmin01_10.jpg" width="768" height="35" alt=""></td>
+  </tr>
+	<tr>
+		<td>
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/spacer.gif" width="210" height="1" alt=""></td>
+		<td>
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/spacer.gif" width="118" height="1" alt=""></td>
+		<td>
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/spacer.gif" width="60" height="1" alt=""></td>
+		<td>
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/spacer.gif" width="178" height="1" alt=""></td>
+		<td>
+			<img src="/web/20090317223853im_/http://www.pikmin.com/images/00/spacer.gif" width="202" height="1" alt=""></td>
+	</tr>
+</table>
+</div>
+
+<div id="contents_top">
+<div><img src="/web/20090317223853im_/http://www.pikmin.com/img/spacer.gif" alt="" width="3" height="5"></div>
+<div id="g_navi_box">
+<p><img src="/web/20090317223853im_/http://www.pikmin.com/img/g_bar.jpg" width="748" height="7" alt=""></p>
+<div id="navi">
+
+</div>
+<div class="clear"></div>
+
+</div>
+</div>
+<div id="foot_bar"><img src="/web/20090317223853im_/http://www.pikmin.com/img/footer.jpg" width="768" height="21" alt=""></div>
+</noscript>
+  <div align="center" id="mainContentNav"><a href="http://web.archive.org/web/20090317223853/http://www.pikmin.com/index.html">Home</a> | <a href="http://web.archive.org/web/20090317223853/http://www.pikmin.com/pikmin/index.html" class="mainContent">Meet the Pikmin</a> | <a href="http://web.archive.org/web/20090317223853/http://www.pikmin.com/story/index.html" class="mainContent">Story</a> | <a href="http://web.archive.org/web/20090317223853/http://www.pikmin.com/issyo/index.html" class="mainContent">How to Play</a> | <a href="http://web.archive.org/web/20090317223853/http://www.pikmin.com/stage/index.html" class="mainContent">The Planet</a> | <a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/" class="mainContent" target="_blank">Nintendo.com</a> | <a href="http://web.archive.org/web/20090317223853/http://www.wii.com/" class="mainContent" target="_blank">Wii.com</a></div>
+	
+  </div>
+  </div>
+  <div id="frameBottom"></div>
+  <div id="globalNav" align="center">
+  <table id="GlobalMenu">
+  	<tbody><tr>
+        <td width="258" align="left" nowrap="nowrap" style="vertical-align:middle;"><img src="./old_nintendo_pikmin_files/wii_logo.gif"><img src="./old_nintendo_pikmin_files/spacer.gif" width="18"><a href="http://web.archive.org/web/20090317223853/http://www.pikmin.com/">English</a> | <a href="http://web.archive.org/web/20090317223853/http://pikmin.com/es/" class="footer">Spanish</a> | <a href="http://web.archive.org/web/20090317223853/http://pikmin.com/fr/" class="footer">French</a></td>
+      	<td width="239" align="right"><div align="left"><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/consumer/retail/retail_retailers_product.jsp?itemid=SfqbPink6w5WsZ-S7nParZWl6UsHn-Mm&amp;title=New+Play+Control!+Pikmin&amp;platform=Wii"><img src="./old_nintendo_pikmin_files/buynow_btn.jpg" alt="Buy Now" width="146" height="48"></a></div></td>
+      	<td width="427" rowspan="2" align="right">
+        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/wii/newplaycontrol/"><img src="./old_nintendo_pikmin_files/Pikmin_footer_02.jpg" border="0"></a></td>
+                <td><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/leaving?destination=http://www.esrb.org/ratings/ratings_guide.jsp"><img src="./old_nintendo_pikmin_files/Pikmin_footer_03.jpg" border="0"></a></td>
+              </tr>
+            </tbody></table>         </td>
+    </tr>
+    <tr>        <td colspan="2" align="left" valign="top"><img src="./old_nintendo_pikmin_files/spacer.gif" width="1" height="19"> © 2001 - 2009 Nintendo.  Pikmin and Wii are trademarks of Nintendo. © 2009 Nintendo.<span class="copyright"></span></td>
+    </tr>
+  </tbody></table>
+  </div>
+   
+   		<div id="footer">
+  <ul>
+			<li><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/consumer">Customer Service </a><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/consumer">English</a> / <a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/consumer/francais/index.jsp">French			</a> / <a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/consumer/espanol/index.jsp">Spanish</a></li>
+			<li><a href="http://web.archive.org/web/20090317223853/http://store.nintendo.com/">Online Store</a></li>
+			<li><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/corp">Corporate</a></li>
+			<li><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/countryselector">Global</a></li>
+			<li><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/privacy">Privacy</a></li>
+			<li><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/help">Help</a></li>
+			<li><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/parents">Parents</a></li>
+			<li><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/contact">Contact</a></li>
+			<li><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/consumer/manuals/healthsafety.jsp">Health &amp; Safety Manual</a></li>
+			<li><a href="http://web.archive.org/web/20090317223853/http://nintendo.ca/">Nintendo of Canada</a></li>
+		</ul>
+		<p class="footerBug">©2009 Nintendo. Games are property of their respective owners.<br>Nintendo of America Inc. Headquarters are in Redmond, Washington</p>
+		<img src="./old_nintendo_pikmin_files/nintendo-footer-logo.jpg" alt="" class="footer-logo">
+		<a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/feed"><img src="./old_nintendo_pikmin_files/rss-logo.jpg" alt="" class="footer-rss"></a>
+	
+        
+        
+        <a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/feed" rel="alternate"><img alt="" class="footer-rss" src="./old_nintendo_pikmin_files/rss-logo.jpg"></a>
+		<div class="footer-esrb">
+		  <p><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/corp/privacy.jsp" target="_blank" title="Nintendo&#39;s Privacy Policy">Nintendo's Privacy Policy</a></p>
+		  <p class="esrb-badge"><a href="http://web.archive.org/web/20090317223853/http://www.nintendo.com/corp/privacy.jsp" target="_blank"><img alt="" src="./old_nintendo_pikmin_files/esrb_privacy.gif"></a></p>
+		</div>
+	</div>
+</div>
+   
+   
+
+<map name="WiiMap" id="WiiMap">
+  <area shape="rect" coords="8,4,67,34" href="http://web.archive.org/web/20090317223853/http://wii.com/" alt="Wii">
+</map>
+
+
+
+<!-- SiteCatalyst code version: H.14.
+
+Copyright 1997-2007 Omniture, Inc. More info available at
+
+http://www.omniture.com -->
+
+<script language="JavaScript" src="./old_nintendo_pikmin_files/s_code.js.download"></script>
+
+<script language="JavaScript"><!--
+
+/* You may give each page an identifying name, server, and channel on
+
+the next lines. */
+s.pageName="us:microsite:pikmin:home"
+s.channel="us:microsite:pikmin"
+s.prop1="us:microsite:pikmin"
+s.prop2="microsite:home"
+s.prop6="us:en"
+s.prop7="SfqbPink6w5WsZ-S7nParZWl6UsHn-Mm"
+s.prop10="New Play Control! Pikmin"
+s.prop11="Action, Strategy"
+s.prop12="Nintendo"
+s.prop16="us:microsite:pikmin"
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+
+<!-- End SiteCatalyst code version: H.14. -->
+
+
+
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 200.457
+  esindex: 0.014
+  load_resource: 132.723
+  PetaboxLoader3.datanode: 294.965 (4)
+  CDXLines.iter: 20.018 (3)
+  RedisCDXSource: 8.252
+  xauthn.chkprivs: 0.056
+  captures_list: 695.188
+  LoadShardBlock: 457.884 (3)
+  exclusion.robots: 200.473
+  PetaboxLoader3.resolve: 180.12 (4)
+  xauthn.identify: 200.037
+--><div id="shimai-world" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483647; pointer-events: none; background: transparent;"></div></body></html>
